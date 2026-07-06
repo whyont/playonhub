@@ -39,18 +39,22 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* Google AdSense - Replace ca-pub-XXXX with your publisher ID after approval */}
-        {/* <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXX"
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
           crossOrigin="anonymous"
-        ></script> */}
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap"
+          rel="stylesheet"
+        />
         {/* Google Analytics 4 - Replace G-XXXX with your measurement ID */}
         {/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXX"></script> */}
       </head>
       <body>
         <Header />
-        <main className="container" style={{ minHeight: "70vh", padding: "1.5rem 1rem 3rem" }}>
+        <main className="container" style={{ minHeight: "70vh", padding: "1.5rem 1.25rem 3rem" }}>
           {children}
         </main>
         <Footer />

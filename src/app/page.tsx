@@ -1,8 +1,22 @@
-import { getFeaturedGames, games, getAllCategories } from "@/lib/games";
-import { blogPosts } from "@/lib/games";
+import { getFeaturedGames, games, getAllCategories, blogPosts } from "@/lib/games";
 import GameCard from "@/components/GameCard";
-import AdSlot from "@/components/AdSlot";
 import Link from "next/link";
+
+const CATEGORY_ICONS: Record<string, string> = {
+  io: "🌐",
+  platformer: "🏃",
+  driving: "🏎️",
+  casual: "🎯",
+  puzzle: "🧩",
+  action: "⚔️",
+  arcade: "👾",
+  shooter: "🔫",
+  racing: "🏁",
+};
+
+function getCategoryIcon(slug: string): string {
+  return CATEGORY_ICONS[slug] || "🎮";
+}
 
 export default function HomePage() {
   const featured = getFeaturedGames();
@@ -12,36 +26,29 @@ export default function HomePage() {
   return (
     <div>
       {/* Hero Section */}
-      <section
-        style={{
-          textAlign: "center",
-          padding: "2rem 0 1.5rem",
-        }}
-      >
-        <h1 style={{ fontSize: "2rem", fontWeight: 700, marginBottom: "0.5rem" }}>
-          Play Free Online Games
+      <section className="hero-section fade-up">
+        <span className="hero-eyebrow">Instant Play · No Downloads · 100% Free</span>
+        <h1 className="hero-title">
+          <span className="hero-gradient">Play Free Online Games</span>
         </h1>
-        <p style={{ color: "var(--color-muted)", maxWidth: "600px", margin: "0 auto 1rem" }}>
-          Play the best browser games instantly. No downloads, no installations. IO games, puzzles,
-          racing, and more - all free to play.
+        <p className="hero-subtitle">
+          Jump into the best browser games instantly. IO battles, brain-teasing
+          puzzles, high-octane driving, and more - all free to play on PlayOnHub.
         </p>
+        <div className="hero-actions">
+          <Link href="#featured" className="btn-primary">
+            Start Playing
+          </Link>
+          <Link href="#categories" className="btn-secondary">
+            Browse Categories
+          </Link>
+        </div>
       </section>
 
-      {/* Top Ad */}
-      <AdSlot style={{ marginBottom: "2rem" }} />
-
       {/* Featured Games */}
-      <section style={{ marginBottom: "2.5rem" }}>
-        <h2 style={{ fontSize: "1.25rem", fontWeight: 700, marginBottom: "1rem" }}>
-          🔥 Featured Games
-        </h2>
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fill, minmax(160px, 1fr))",
-            gap: "1rem",
-          }}
-        >
+      <section id="featured" className="home-section">
+        <h2 className="section-title">Featured Games</h2>
+        <div className="grid-games">
           {featured.map((game) => (
             <GameCard key={game.slug} game={game} />
           ))}
@@ -49,110 +56,116 @@ export default function HomePage() {
       </section>
 
       {/* Categories */}
-      <section style={{ marginBottom: "2.5rem" }}>
-        <h2 style={{ fontSize: "1.25rem", fontWeight: 700, marginBottom: "1rem" }}>
-          📂 Browse by Category
-        </h2>
-        <div
-          style={{
-            display: "flex",
-            flexWrap: "wrap",
-            gap: "0.75rem",
-          }}
-        >
+      <section id="categories" className="home-section">
+        <h2 className="section-title">Browse by Category</h2>
+        <div className="grid-categories">
           {categories.map((cat) => (
             <Link
               key={cat.slug}
               href={`/category/${cat.slug}`}
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                alignItems: "center",
-                padding: "1rem 1.5rem",
-                background: "var(--color-surface)",
-                borderRadius: "10px",
-                border: "1px solid var(--color-surface-2)",
-                minWidth: "120px",
-                textDecoration: "none",
-              }}
+              className="category-pill"
             >
-              <span style={{ fontSize: "0.95rem", fontWeight: 600, color: "var(--color-text)" }}>
-                {cat.name}
-              </span>
-              <span style={{ fontSize: "0.75rem", color: "var(--color-muted)" }}>
-                {cat.count} games
-              </span>
+              <span className="category-pill-icon">{getCategoryIcon(cat.slug)}</span>
+              <span className="category-pill-name">{cat.name}</span>
+              <span className="category-pill-count">{cat.count} games</span>
             </Link>
           ))}
         </div>
       </section>
 
       {/* All Games */}
-      <section style={{ marginBottom: "2.5rem" }}>
-        <h2 style={{ fontSize: "1.25rem", fontWeight: 700, marginBottom: "1rem" }}>
-          🎮 All Games
-        </h2>
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fill, minmax(160px, 1fr))",
-            gap: "1rem",
-          }}
-        >
+      <section className="home-section">
+        <h2 className="section-title">All Games</h2>
+        <div className="grid-games">
           {games.map((game) => (
             <GameCard key={game.slug} game={game} />
           ))}
         </div>
       </section>
 
-      {/* Middle Ad */}
-      <AdSlot style={{ marginBottom: "2rem" }} />
-
-      {/* Blog Section */}
-      <section>
-        <h2 style={{ fontSize: "1.25rem", fontWeight: 700, marginBottom: "1rem" }}>
-          📝 Latest Articles
-        </h2>
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))",
-            gap: "1rem",
-          }}
-        >
+      {/* Latest Articles */}
+      <section className="home-section">
+        <h2 className="section-title">Latest Articles</h2>
+        <div className="grid-blog">
           {recentBlog.map((post) => (
-            <Link
-              key={post.slug}
-              href={`/blog/${post.slug}`}
-              style={{
-                display: "block",
-                padding: "1.25rem",
-                background: "var(--color-surface)",
-                borderRadius: "10px",
-                border: "1px solid var(--color-surface-2)",
-                textDecoration: "none",
-              }}
-            >
-              <span
-                style={{
-                  fontSize: "0.65rem",
-                  textTransform: "uppercase",
-                  color: "var(--color-brand-light)",
-                  fontWeight: 600,
-                }}
-              >
-                {post.category}
+            <Link key={post.slug} href={`/blog/${post.slug}`} className="blog-card">
+              <span className="blog-card-category">{post.category}</span>
+              <h3 className="blog-card-title">{post.title}</h3>
+              <p className="blog-card-excerpt">{post.excerpt}</p>
+              <span className="blog-card-date">
+                {new Date(post.publishedAt).toLocaleDateString("en-US", {
+                  year: "numeric",
+                  month: "long",
+                  day: "numeric",
+                })}
               </span>
-              <h3 style={{ fontSize: "0.95rem", fontWeight: 600, marginTop: "0.4rem", color: "var(--color-text)" }}>
-                {post.title}
-              </h3>
-              <p style={{ fontSize: "0.8rem", color: "var(--color-muted)", marginTop: "0.4rem" }}>
-                {post.excerpt}
-              </p>
             </Link>
           ))}
         </div>
       </section>
+
+      <style>{`
+        .hero-section {
+          text-align: center;
+          padding: 3.5rem 0 2.5rem;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 1rem;
+        }
+
+        .hero-eyebrow {
+          display: inline-block;
+          font-family: "Outfit", sans-serif;
+          font-size: 0.75rem;
+          font-weight: 600;
+          letter-spacing: 0.16em;
+          text-transform: uppercase;
+          color: var(--color-secondary-light);
+          padding: 0.4rem 1rem;
+          border-radius: var(--radius-pill);
+          background: rgba(6, 182, 212, 0.1);
+          border: 1px solid rgba(6, 182, 212, 0.3);
+        }
+
+        .hero-title {
+          font-family: "Outfit", sans-serif;
+          font-size: clamp(2.2rem, 6vw, 3.75rem);
+          font-weight: 800;
+          line-height: 1.05;
+          margin: 0;
+          max-width: 900px;
+        }
+
+        .hero-subtitle {
+          color: var(--color-muted);
+          font-size: clamp(0.95rem, 2vw, 1.1rem);
+          line-height: 1.7;
+          max-width: 640px;
+          margin: 0 auto;
+        }
+
+        .hero-actions {
+          display: flex;
+          gap: 1rem;
+          flex-wrap: wrap;
+          justify-content: center;
+          margin-top: 0.5rem;
+        }
+
+        .home-section {
+          margin-bottom: 3.5rem;
+        }
+
+        @media (max-width: 768px) {
+          .hero-section {
+            padding: 2.5rem 0 2rem;
+          }
+          .home-section {
+            margin-bottom: 2.75rem;
+          }
+        }
+      `}</style>
     </div>
   );
 }

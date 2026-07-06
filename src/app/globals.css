@@ -1,77 +1,424 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --color-bg: #0f172a;
-  --color-surface: #1e293b;
-  --color-surface-2: #334155;
-  --color-text: #f1f5f9;
-  --color-muted: #94a3b8;
-  --color-brand: #6366f1;
-  --color-brand-light: #818cf8;
-  --color-accent: #0d9488;
+  /* Backgrounds & surfaces */
+  --color-bg: #0a0a14;
+  --color-surface: #13131f;
+  --color-surface-2: #1a1a2e;
+  --color-surface-3: #22223a;
+
+  /* Text */
+  --color-text: #f4f4fb;
+  --color-muted: #9a9ab4;
+  --color-muted-soft: #6f6f8c;
+
+  /* Neon accents */
+  --color-brand: #7c3aed;        /* violet */
+  --color-brand-light: #a78bfa;
+  --color-secondary: #06b6d4;    /* cyan */
+  --color-secondary-light: #67e8f9;
+  --color-accent: #ec4899;       /* pink */
+  --color-accent-light: #f9a8d4;
+
+  /* Effects */
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-pill: 999px;
+  --transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 * {
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: var(--color-bg);
   color: var(--color-text);
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  line-height: 1.6;
+  /* Ambient neon glow in the background */
+  background-image:
+    radial-gradient(circle at 12% 8%, rgba(124, 58, 237, 0.18), transparent 42%),
+    radial-gradient(circle at 88% 0%, rgba(6, 182, 212, 0.14), transparent 40%),
+    radial-gradient(circle at 50% 100%, rgba(236, 72, 153, 0.10), transparent 55%);
+  background-attachment: fixed;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Outfit", "Inter", sans-serif;
+  letter-spacing: -0.02em;
   margin: 0;
 }
 
 a {
   color: var(--color-brand-light);
   text-decoration: none;
+  transition: color var(--transition);
 }
 
 a:hover {
-  text-decoration: underline;
+  color: var(--color-secondary-light);
 }
 
+p {
+  margin: 0;
+}
+
+/* ---------- Layout ---------- */
 .container {
-  max-width: 1200px;
+  max-width: 1240px;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 1.25rem;
 }
 
-/* Game card hover effect */
+/* ---------- Glassmorphism cards ---------- */
+.glass-card {
+  background: rgba(26, 26, 46, 0.55);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(124, 58, 237, 0.18);
+  border-radius: var(--radius-md);
+  transition: transform var(--transition), box-shadow var(--transition),
+    border-color var(--transition);
+}
+
+.glass-card:hover {
+  border-color: rgba(124, 58, 237, 0.45);
+}
+
+/* ---------- Neon glow ---------- */
+.neon-glow {
+  box-shadow: 0 0 0 1px rgba(124, 58, 237, 0.2),
+    0 8px 30px rgba(124, 58, 237, 0.18);
+}
+
+.neon-glow:hover {
+  box-shadow: 0 0 0 1px rgba(124, 58, 237, 0.55),
+    0 12px 40px rgba(124, 58, 237, 0.35),
+    0 0 22px rgba(6, 182, 212, 0.25);
+}
+
+/* ---------- Hero gradient ---------- */
+.hero-gradient {
+  background: linear-gradient(
+    120deg,
+    var(--color-brand) 0%,
+    var(--color-secondary) 55%,
+    var(--color-accent) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+/* ---------- Section title with neon underline ---------- */
+.section-title {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--color-text);
+  position: relative;
+  display: inline-block;
+  padding-bottom: 0.6rem;
+  margin-bottom: 1.5rem;
+}
+
+.section-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+  border-radius: 3px;
+  background: linear-gradient(
+    90deg,
+    var(--color-brand),
+    var(--color-secondary),
+    var(--color-accent)
+  );
+  box-shadow: 0 0 12px rgba(124, 58, 237, 0.6);
+}
+
+/* ---------- Buttons ---------- */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.7rem 1.6rem;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #fff;
+  background: linear-gradient(
+    120deg,
+    var(--color-brand),
+    var(--color-secondary)
+  );
+  border: none;
+  border-radius: var(--radius-pill);
+  cursor: pointer;
+  text-decoration: none;
+  transition: transform var(--transition), box-shadow var(--transition);
+  box-shadow: 0 8px 20px rgba(124, 58, 237, 0.35);
+}
+
+.btn-primary:hover {
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(124, 58, 237, 0.55),
+    0 0 18px rgba(6, 182, 212, 0.35);
+}
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.7rem 1.6rem;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--color-text);
+  background: rgba(26, 26, 46, 0.6);
+  border: 1px solid rgba(124, 58, 237, 0.4);
+  border-radius: var(--radius-pill);
+  cursor: pointer;
+  text-decoration: none;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition: transform var(--transition), border-color var(--transition),
+    box-shadow var(--transition);
+}
+
+.btn-secondary:hover {
+  color: var(--color-text);
+  transform: translateY(-2px);
+  border-color: var(--color-secondary);
+  box-shadow: 0 0 18px rgba(6, 182, 212, 0.35);
+}
+
+/* ---------- Game card ---------- */
 .game-card {
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: block;
+  text-decoration: none;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  background: rgba(19, 19, 31, 0.7);
+  border: 1px solid rgba(124, 58, 237, 0.18);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: transform var(--transition), box-shadow var(--transition),
+    border-color var(--transition);
+  height: 100%;
 }
 
 .game-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  transform: translateY(-6px) scale(1.02);
+  border-color: rgba(124, 58, 237, 0.6);
+  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.55),
+    0 0 22px rgba(124, 58, 237, 0.4),
+    0 0 30px rgba(6, 182, 212, 0.22);
 }
 
-/* Ad slot placeholder */
-.ad-slot {
-  background: var(--color-surface);
-  border: 1px dashed var(--color-surface-2);
-  border-radius: 8px;
+.game-card-thumb {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: var(--color-surface-2);
+}
+
+.game-card-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.game-card:hover .game-card-thumb img {
+  transform: scale(1.08);
+}
+
+.game-card-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(10, 10, 20, 0.92) 0%,
+    rgba(10, 10, 20, 0.25) 45%,
+    transparent 75%
+  );
+  display: flex;
+  align-items: flex-end;
+  padding: 0.75rem 0.9rem;
+}
+
+.game-card-title {
+  font-family: "Outfit", sans-serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.25;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.game-card-body {
+  padding: 0.65rem 0.9rem 0.85rem;
   display: flex;
   align-items: center;
-  justify-content: center;
-  color: var(--color-muted);
-  font-size: 0.75rem;
-  min-height: 90px;
-  text-align: center;
+  justify-content: space-between;
+  gap: 0.5rem;
 }
 
-/* Game iframe wrapper */
+.category-badge {
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 0.2rem 0.6rem;
+  border-radius: var(--radius-pill);
+  background: rgba(124, 58, 237, 0.2);
+  color: var(--color-brand-light);
+  border: 1px solid rgba(124, 58, 237, 0.35);
+}
+
+.tag-badge {
+  font-size: 0.68rem;
+  font-weight: 500;
+  padding: 0.15rem 0.5rem;
+  border-radius: var(--radius-pill);
+  background: rgba(6, 182, 212, 0.14);
+  color: var(--color-secondary-light);
+  border: 1px solid rgba(6, 182, 212, 0.3);
+}
+
+/* ---------- Category pill ---------- */
+.category-pill {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.2rem;
+  padding: 1rem 1.25rem;
+  min-width: 140px;
+  text-decoration: none;
+  border-radius: var(--radius-md);
+  background: rgba(26, 26, 46, 0.55);
+  border: 1px solid rgba(124, 58, 237, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: transform var(--transition), border-color var(--transition),
+    box-shadow var(--transition);
+}
+
+.category-pill:hover {
+  transform: translateY(-4px);
+  border-color: var(--color-secondary);
+  box-shadow: 0 0 20px rgba(6, 182, 212, 0.3);
+}
+
+.category-pill-icon {
+  font-size: 1.4rem;
+  line-height: 1;
+}
+
+.category-pill-name {
+  font-family: "Outfit", sans-serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--color-text);
+  text-transform: capitalize;
+}
+
+.category-pill-count {
+  font-size: 0.75rem;
+  color: var(--color-muted);
+}
+
+/* ---------- Blog card ---------- */
+.blog-card {
+  display: block;
+  padding: 1.5rem;
+  text-decoration: none;
+  border-radius: var(--radius-md);
+  background: rgba(26, 26, 46, 0.55);
+  border: 1px solid rgba(124, 58, 237, 0.18);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  transition: transform var(--transition), border-color var(--transition),
+    box-shadow var(--transition);
+  height: 100%;
+}
+
+.blog-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--color-accent);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.45),
+    0 0 18px rgba(236, 72, 153, 0.25);
+}
+
+.blog-card-category {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.2rem 0.6rem;
+  border-radius: var(--radius-pill);
+  background: rgba(236, 72, 153, 0.16);
+  color: var(--color-accent-light);
+  border: 1px solid rgba(236, 72, 153, 0.3);
+}
+
+.blog-card-title {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--color-text);
+  margin-top: 0.75rem;
+  line-height: 1.35;
+}
+
+.blog-card-excerpt {
+  font-size: 0.85rem;
+  color: var(--color-muted);
+  margin-top: 0.5rem;
+  line-height: 1.6;
+}
+
+.blog-card-date {
+  display: block;
+  font-size: 0.75rem;
+  color: var(--color-muted-soft);
+  margin-top: 0.9rem;
+}
+
+/* ---------- Game iframe wrapper ---------- */
 .game-iframe-wrapper {
   position: relative;
   width: 100%;
   aspect-ratio: 16 / 10;
-  border-radius: 12px;
+  border-radius: var(--radius-lg);
   overflow: hidden;
   background: #000;
+  border: 1px solid rgba(124, 58, 237, 0.3);
+  box-shadow: 0 16px 50px rgba(0, 0, 0, 0.6),
+    0 0 30px rgba(124, 58, 237, 0.25);
 }
 
 .game-iframe-wrapper iframe {
@@ -81,4 +428,121 @@ a:hover {
   width: 100%;
   height: 100%;
   border: 0;
+}
+
+/* ---------- Info / FAQ cards ---------- */
+.info-card {
+  padding: 1.5rem;
+  border-radius: var(--radius-md);
+  background: rgba(26, 26, 46, 0.55);
+  border: 1px solid rgba(124, 58, 237, 0.18);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* ---------- Breadcrumb ---------- */
+.breadcrumb {
+  font-size: 0.8rem;
+  color: var(--color-muted);
+  margin-bottom: 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.breadcrumb a {
+  color: var(--color-muted);
+}
+
+.breadcrumb a:hover {
+  color: var(--color-secondary-light);
+}
+
+.breadcrumb span {
+  color: var(--color-text);
+}
+
+/* ---------- Responsive grids ---------- */
+.grid-games {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.25rem;
+}
+
+.grid-blog {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.grid-categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1rem;
+}
+
+/* ---------- Animations ---------- */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-up {
+  animation: fadeUp 0.5s ease both;
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 18px rgba(124, 58, 237, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 28px rgba(124, 58, 237, 0.7),
+      0 0 40px rgba(6, 182, 212, 0.35);
+  }
+}
+
+.pulse-glow {
+  animation: pulseGlow 2.4s ease-in-out infinite;
+}
+
+/* ---------- Mobile-first responsive ---------- */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 1.35rem;
+  }
+
+  .grid-games {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 1rem;
+  }
+
+  .grid-blog {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .grid-categories {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .game-card-title {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .grid-games {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid-categories {
+    grid-template-columns: 1fr;
+  }
 }

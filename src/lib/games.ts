@@ -7,6 +7,7 @@ export type Game = {
   category: string;
   description: string;
   embedUrl: string;
+  thumbnail: string;
   tags: string[];
   featured: boolean;
   howToPlay: string;
@@ -27,6 +28,10 @@ export type BlogPost = {
 
 export const games = gamesData as Game[];
 export const blogPosts = blogData as BlogPost[];
+
+export function getGameThumbnail(game: Game): string {
+  return `/thumbnails/${game.slug}.jpg`;
+}
 
 export function getGameBySlug(slug: string): Game | undefined {
   return games.find((g) => g.slug === slug);
