@@ -49,8 +49,21 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap"
           rel="stylesheet"
         />
-        {/* Google Analytics 4 - Replace G-XXXX with your measurement ID */}
-        {/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXX"></script> */}
+        {/* Google Analytics 4 */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-VFTLSFE4FE"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-VFTLSFE4FE');
+            `,
+          }}
+        />
       </head>
       <body>
         <Header />
