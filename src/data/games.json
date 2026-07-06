@@ -7,7 +7,7 @@
     "embedUrl": "https://www.crazygames.com/embed/krunker-io",
     "thumbnail": "/thumbnails/krunker-io.jpg",
     "tags": ["fps", "multiplayer", "shooting", "io", "3d"],
-    "featured": true,
+    "featured": false,
     "howToPlay": "Use WASD to move, mouse to aim and shoot, Shift to crouch, and Space to jump. Click to fire your weapon. Eliminate enemies to score points and climb the leaderboard.",
     "tips": [
       "Keep moving constantly - standing still makes you an easy target",
@@ -38,7 +38,7 @@
     "embedUrl": "https://www.crazygames.com/embed/level-devil",
     "thumbnail": "/thumbnails/level-devil.jpg",
     "tags": ["platformer", "puzzle", "hard", "casual"],
-    "featured": true,
+    "featured": false,
     "howToPlay": "Use arrow keys or WASD to move and jump. Avoid traps and reach the end of each level. Watch out for unexpected obstacles!",
     "tips": [
       "Take your time - rushing leads to mistakes",
@@ -65,7 +65,7 @@
     "embedUrl": "https://www.crazygames.com/embed/escape-road-asm",
     "thumbnail": "/thumbnails/escape-road.jpg",
     "tags": ["driving", "car", "chase", "3d", "casual"],
-    "featured": true,
+    "featured": false,
     "howToPlay": "Use arrow keys or WASD to steer your car. Avoid police cars and obstacles. Collect power-ups to help you escape. Survive as long as possible!",
     "tips": [
       "Use narrow alleys to lose the police",
@@ -150,7 +150,7 @@
     "embedUrl": "https://www.crazygames.com/embed/agario",
     "thumbnail": "/thumbnails/agar-io.jpg",
     "tags": ["io", "multiplayer", "survival", "casual"],
-    "featured": false,
+    "featured": true,
     "howToPlay": "Move your mouse to steer your cell. Eat smaller cells and pellets to grow. Avoid larger cells that can eat you. Split with Space to attack or escape.",
     "tips": [
       "Start by eating pellets to grow to a safe size",
@@ -196,7 +196,7 @@
     "embedUrl": "https://www.crazygames.com/embed/1v1-lol",
     "thumbnail": "/thumbnails/1v1-lol.jpg",
     "tags": ["fps", "building", "io", "multiplayer", "3d"],
-    "featured": false,
+    "featured": true,
     "howToPlay": "Use WASD to move, mouse to aim and shoot. Press building keys to place walls, ramps, and platforms. Combine building and shooting to win.",
     "tips": [
       "Build walls for instant cover during fights",
@@ -219,7 +219,7 @@
     "embedUrl": "https://www.crazygames.com/embed/2048",
     "thumbnail": "/thumbnails/2048.jpg",
     "tags": ["puzzle", "math", "casual", "addictive"],
-    "featured": false,
+    "featured": true,
     "howToPlay": "Use arrow keys to slide all tiles in that direction. When two tiles with the same number touch, they merge into one with double the value. Reach 2048!",
     "tips": [
       "Keep your highest tile in a corner",
@@ -346,7 +346,7 @@
     "embedUrl": "https://www.crazygames.com/embed/bloxdhop-io",
     "thumbnail": "/thumbnails/bloxdhop-io.jpg",
     "tags": ["io", "multiplayer", "sandbox", "building", "3d"],
-    "featured": false,
+    "featured": true,
     "howToPlay": "Use WASD to move, Space to jump, and mouse to look around. In obby mode, navigate through obstacle courses. In creative mode, build whatever you want!",
     "tips": [
       "In obby mode, take your time with difficult jumps",
