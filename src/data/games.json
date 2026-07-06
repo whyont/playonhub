@@ -1,0 +1,302 @@
+[
+  {
+    "slug": "cryzen-io",
+    "title": "Cryzen.io",
+    "category": "io",
+    "description": "Cryzen.io is an intense multiplayer FPS .io game where you battle players worldwide in fast-paced arena combat. Developed by Vectaria, it features dynamic maps, multiple weapons, and competitive game modes.",
+    "embedUrl": "https://www.crazygames.com/embed/cryzen-io",
+    "tags": ["fps", "multiplayer", "shooting", "io", "3d"],
+    "featured": true,
+    "howToPlay": "Use WASD to move, mouse to aim and shoot. Collect weapons scattered across the map. Eliminate other players to score points and climb the leaderboard.",
+    "tips": [
+      "Always keep moving to avoid getting hit by snipers",
+      "Pick up better weapons as soon as you spot them",
+      "Use cover effectively - don't stay in open areas",
+      "Listen for footsteps to detect nearby enemies"
+    ],
+    "faq": [
+      {
+        "question": "Is Cryzen.io free to play?",
+        "answer": "Yes, Cryzen.io is completely free to play in your web browser. No download or registration required."
+      },
+      {
+        "question": "Can I play Cryzen.io on mobile?",
+        "answer": "Cryzen.io is optimized for desktop browsers. Mobile support may vary depending on your device."
+      },
+      {
+        "question": "How do I get better weapons in Cryzen.io?",
+        "answer": "Weapons are scattered across the map. Explore different areas to find better guns and equipment."
+      }
+    ]
+  },
+  {
+    "slug": "level-devil",
+    "title": "Level Devil",
+    "category": "platformer",
+    "description": "Level Devil is a challenging platformer game that will test your reflexes and patience. Navigate through increasingly difficult levels filled with traps, obstacles, and surprises. Each level brings a new twist to keep you on your toes.",
+    "embedUrl": "https://www.crazygames.com/embed/level-devil",
+    "tags": ["platformer", "puzzle", "hard", "casual"],
+    "featured": true,
+    "howToPlay": "Use arrow keys or WASD to move and jump. Avoid traps and reach the end of each level. Watch out for unexpected obstacles!",
+    "tips": [
+      "Take your time - rushing leads to mistakes",
+      "Learn from each death - traps are predictable once you know them",
+      "Some platforms may disappear or move - stay alert",
+      "Practice makes perfect - retry levels until you memorize the pattern"
+    ],
+    "faq": [
+      {
+        "question": "How many levels are in Level Devil?",
+        "answer": "Level Devil features multiple levels with increasing difficulty. New levels may be added in updates."
+      },
+      {
+        "question": "Is Level Devil unblocked at school?",
+        "answer": "You can play Level Devil on PlayOnHub from any browser. Check your school's internet policy for access."
+      }
+    ]
+  },
+  {
+    "slug": "escape-road",
+    "title": "Escape Road",
+    "category": "driving",
+    "description": "Escape Road is an exciting driving game where you must escape from pursuing police cars. Navigate through city streets, avoid obstacles, and survive as long as possible while the heat intensifies.",
+    "embedUrl": "https://www.crazygames.com/embed/escape-road-asm",
+    "tags": ["driving", "car", "chase", "3d", "casual"],
+    "featured": true,
+    "howToPlay": "Use arrow keys or WASD to steer your car. Avoid police cars and obstacles. Collect power-ups to help you escape. Survive as long as possible!",
+    "tips": [
+      "Use narrow alleys to lose the police",
+      "Collect nitro boosts for extra speed",
+      "Avoid head-on collisions - they slow you down significantly",
+      "Learn the city layout to plan your escape routes"
+    ],
+    "faq": [
+      {
+        "question": "How do I escape the police in Escape Road?",
+        "answer": "Use narrow streets, sharp turns, and speed boosts to create distance between you and the pursuing police cars."
+      },
+      {
+        "question": "Are there different cars in Escape Road?",
+        "answer": "You can unlock different vehicles with unique handling characteristics as you progress."
+      }
+    ]
+  },
+  {
+    "slug": "smash-karts",
+    "title": "Smash Karts",
+    "category": "io",
+    "description": "Smash Karts is a fun and chaotic multiplayer .io kart battle game. Drive your kart, collect weapons, and smash your opponents in this action-packed arena. Last kart standing wins!",
+    "embedUrl": "https://www.crazygames.com/embed/smash-karts",
+    "tags": ["io", "racing", "battle", "multiplayer", "3d"],
+    "featured": true,
+    "howToPlay": "Drive your kart with WASD or arrow keys. Collect weapon boxes to get rockets, machine guns, and more. Eliminate other players to score points.",
+    "tips": [
+      "Grab weapon crates as soon as they spawn",
+      "Rockets are powerful but slow - lead your shots",
+      "Use speed boosts to chase down or escape opponents",
+      "Stay near the center of the map for more weapon spawns"
+    ],
+    "faq": [
+      {
+        "question": "Is Smash Karts multiplayer?",
+        "answer": "Yes, Smash Karts is a real-time multiplayer game where you battle against players from around the world."
+      },
+      {
+        "question": "How do I get more points in Smash Karts?",
+        "answer": "Eliminate other players using weapons. Each elimination earns you points toward your match score."
+      }
+    ]
+  },
+  {
+    "slug": "shell-shockers",
+    "title": "Shell Shockers",
+    "category": "io",
+    "description": "Shell Shockers is the world's most popular egg-based multiplayer FPS .io game. Armed with powerful weapons, you battle other eggs in intense arena combat. Crack your opponents before they crack you!",
+    "embedUrl": "https://www.crazygames.com/embed/shellshockersio",
+    "tags": ["fps", "io", "multiplayer", "shooting", "2d"],
+    "featured": true,
+    "howToPlay": "Use WASD to move, mouse to aim, left click to shoot. Choose from different weapon classes. Eliminate enemy eggs to score.",
+    "tips": [
+      "Each weapon class has unique strengths - try them all",
+      "Use cover and peek around corners",
+      "Keep your crosshair at head height",
+      "Reload behind cover, not in the open"
+    ],
+    "faq": [
+      {
+        "question": "Is Shell Shockers free?",
+        "answer": "Yes, Shell Shockers is completely free to play in your web browser."
+      },
+      {
+        "question": "Can I play Shell Shockers at school?",
+        "answer": "You can play Shell Shockers on PlayOnHub. Access depends on your school's internet policy."
+      },
+      {
+        "question": "What are the best weapons in Shell Shockers?",
+        "answer": "Each weapon class is balanced. Try the EggK-47 for versatility, the Tri-Hard for close range, or the Crackshot for long range."
+      }
+    ]
+  },
+  {
+    "slug": "agar-io",
+    "title": "Agar.io",
+    "category": "io",
+    "description": "Agar.io is the original .io game that started it all. Control a small cell, eat pellets to grow, and consume smaller players while avoiding larger ones. Simple to learn, impossible to master.",
+    "embedUrl": "https://www.crazygames.com/embed/agario",
+    "tags": ["io", "multiplayer", "survival", "casual"],
+    "featured": false,
+    "howToPlay": "Move your mouse to steer your cell. Eat smaller cells and pellets to grow. Avoid larger cells that can eat you. Split with Space to attack or escape.",
+    "tips": [
+      "Start by eating pellets to grow to a safe size",
+      "Use the split mechanic (Space) to catch smaller players",
+      "Eject mass (W) to feed allies or bait enemies",
+      "Stay near the edges when small to avoid larger players"
+    ],
+    "faq": [
+      {
+        "question": "How do I get big in Agar.io?",
+        "answer": "Eat pellets and smaller cells to grow. Use splitting to catch prey, but be careful of larger players."
+      }
+    ]
+  },
+  {
+    "slug": "moto-x3m",
+    "title": "Moto X3M",
+    "category": "driving",
+    "description": "Moto X3M is a thrilling motorcycle obstacle course game. Race through increasingly dangerous tracks, perform backflips, and try to complete each level as fast as possible. With dozens of levels, the fun never stops.",
+    "embedUrl": "https://www.crazygames.com/embed/moto-x3m",
+    "tags": ["driving", "motorcycle", "obstacle", "casual", "2d"],
+    "featured": false,
+    "howToPlay": "Use the up arrow to accelerate, down to brake. Lean forward/backward with left/right arrows. Perform flips for time bonuses!",
+    "tips": [
+      "Backflips reduce your completion time",
+      "Don't over-accelerate on jumps - control your speed",
+      "Lean backward before landing to avoid crashing",
+      "Some levels have shortcuts - look for alternative paths"
+    ],
+    "faq": [
+      {
+        "question": "How many levels does Moto X3M have?",
+        "answer": "Moto X3M features 22 challenging levels with increasing difficulty."
+      }
+    ]
+  },
+  {
+    "slug": "stickman-hook",
+    "title": "Stickman Hook",
+    "category": "casual",
+    "description": "Stickman Hook is a simple yet addictive physics game. Swing from point to point like Spider-Man, build momentum, and reach the finish line. Easy to play, hard to master!",
+    "embedUrl": "https://www.crazygames.com/embed/stickman-hook",
+    "tags": ["physics", "casual", "swinging", "2d"],
+    "featured": false,
+    "howToPlay": "Click and hold to attach to the nearest hook. Release to let go. Build momentum by timing your swings.",
+    "tips": [
+      "Release at the peak of your swing for maximum distance",
+      "Don't hold on too long - you'll lose momentum",
+      "Some levels require precise timing",
+      "Look ahead to plan your hook sequence"
+    ],
+    "faq": [
+      {
+        "question": "Is Stickman Hook free to play?",
+        "answer": "Yes, Stickman Hook is free to play on PlayOnHub in your web browser."
+      }
+    ]
+  },
+  {
+    "slug": "1v1-lol",
+    "title": "1v1.LOL",
+    "category": "io",
+    "description": "1v1.LOL is a competitive third-person shooter where you can build structures while fighting. Practice your aim, build defensive walls, and outsmart your opponent in intense 1v1 battles.",
+    "embedUrl": "https://www.crazygames.com/embed/1v1-lol",
+    "tags": ["fps", "building", "io", "multiplayer", "3d"],
+    "featured": false,
+    "howToPlay": "Use WASD to move, mouse to aim and shoot. Press building keys to place walls, ramps, and platforms. Combine building and shooting to win.",
+    "tips": [
+      "Build walls for instant cover during fights",
+      "Use ramps to gain high ground advantage",
+      "Practice your aim in the training mode first",
+      "Edit builds quickly to create unexpected angles"
+    ],
+    "faq": [
+      {
+        "question": "Is 1v1.LOL like Fortnite?",
+        "answer": "1v1.LOL features similar building mechanics but focuses on 1v1 combat. It's a great way to practice building and editing skills."
+      }
+    ]
+  },
+  {
+    "slug": "2048",
+    "title": "2048",
+    "category": "puzzle",
+    "description": "2048 is the viral puzzle game that took the world by storm. Slide numbered tiles to combine them, doubling their value each time. Reach the 2048 tile to win, then keep going for higher scores!",
+    "embedUrl": "https://www.crazygames.com/embed/2048",
+    "tags": ["puzzle", "math", "casual", "addictive"],
+    "featured": false,
+    "howToPlay": "Use arrow keys to slide all tiles in that direction. When two tiles with the same number touch, they merge into one with double the value. Reach 2048!",
+    "tips": [
+      "Keep your highest tile in a corner",
+      "Never move in the direction that would dislodge your corner tile",
+      "Build a chain of decreasing values along one edge",
+      "Think ahead - every move affects all tiles"
+    ],
+    "faq": [
+      {
+        "question": "How do I win 2048?",
+        "answer": "Combine tiles until you create a 2048 tile. The key strategy is to keep your highest tile in a corner and build a descending chain."
+      },
+      {
+        "question": "What happens after I reach 2048?",
+        "answer": "You can continue playing to reach higher tiles like 4096, 8192, and beyond. The game ends when no more moves are possible."
+      }
+    ]
+  },
+  {
+    "slug": "wordle-unlimited",
+    "title": "Wordle Unlimited",
+    "category": "puzzle",
+    "description": "Wordle Unlimited lets you play the popular word-guessing game without waiting. Guess the hidden 5-letter word in 6 tries. Green means correct letter and position, yellow means correct letter wrong position.",
+    "embedUrl": "https://www.crazygames.com/embed/wordle-unlimited",
+    "tags": ["word", "puzzle", "casual", "daily"],
+    "featured": false,
+    "howToPlay": "Type a 5-letter word and press Enter. Green tiles = correct letter, correct position. Yellow tiles = correct letter, wrong position. Gray tiles = letter not in word.",
+    "tips": [
+      "Start with a word that has common letters (like CRANE or SLATE)",
+      "Avoid repeating letters in your first few guesses",
+      "Pay attention to yellow tiles - they narrow down possibilities",
+      "Use process of elimination with gray tiles"
+    ],
+    "faq": [
+      {
+        "question": "Can I play Wordle more than once a day?",
+        "answer": "Yes! Wordle Unlimited on PlayOnHub lets you play as many rounds as you want, anytime."
+      },
+      {
+        "question": "What's the best starting word for Wordle?",
+        "answer": "Words with common letters like CRANE, SLATE, or AUDIO are great starting words that maximize information."
+      }
+    ]
+  },
+  {
+    "slug": "monkey-tag-io",
+    "title": "Monkey Tag IO",
+    "category": "io",
+    "description": "Monkey Tag IO is a fun multiplayer game where you play as monkeys in an arena. Tag other players to become 'it' and avoid being tagged yourself. Simple, chaotic, and incredibly fun!",
+    "embedUrl": "https://www.crazygames.com/embed/monkey-tag-io",
+    "tags": ["io", "multiplayer", "casual", "tag"],
+    "featured": false,
+    "howToPlay": "Move with WASD. If you're 'it', tag other players by touching them. If you're not 'it', run away and survive!",
+    "tips": [
+      "Use the environment to juke pursuers",
+      "Stick with groups - harder to get tagged",
+      "Watch for players trying to corner you",
+      "Speed boosts appear randomly - grab them"
+    ],
+    "faq": [
+      {
+        "question": "Is Monkey Tag IO multiplayer?",
+        "answer": "Yes, Monkey Tag IO is a real-time multiplayer game where you play with others online."
+      }
+    ]
+  }
+]
