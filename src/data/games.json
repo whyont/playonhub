@@ -1,31 +1,32 @@
 [
   {
-    "slug": "cryzen-io",
-    "title": "Cryzen.io",
+    "slug": "krunker-io",
+    "title": "Krunker.io",
     "category": "io",
-    "description": "Cryzen.io is an intense multiplayer FPS .io game where you battle players worldwide in fast-paced arena combat. Developed by Vectaria, it features dynamic maps, multiple weapons, and competitive game modes.",
-    "embedUrl": "https://www.crazygames.com/embed/cryzen-io",
+    "description": "Krunker.io is the most popular blocky FPS browser game. With its fast-paced gameplay, pixelated graphics, and huge community, you'll battle players worldwide across multiple maps and game modes. The ultimate browser shooter experience.",
+    "embedUrl": "https://www.crazygames.com/embed/krunker-io",
+    "thumbnail": "/thumbnails/krunker-io.jpg",
     "tags": ["fps", "multiplayer", "shooting", "io", "3d"],
     "featured": true,
-    "howToPlay": "Use WASD to move, mouse to aim and shoot. Collect weapons scattered across the map. Eliminate other players to score points and climb the leaderboard.",
+    "howToPlay": "Use WASD to move, mouse to aim and shoot, Shift to crouch, and Space to jump. Click to fire your weapon. Eliminate enemies to score points and climb the leaderboard.",
     "tips": [
-      "Always keep moving to avoid getting hit by snipers",
-      "Pick up better weapons as soon as you spot them",
-      "Use cover effectively - don't stay in open areas",
-      "Listen for footsteps to detect nearby enemies"
+      "Keep moving constantly - standing still makes you an easy target",
+      "Aim for headshots for extra damage and points",
+      "Learn the map layouts to find cover and vantage points",
+      "Use the sniper class for long-range maps and SMG for close quarters"
     ],
     "faq": [
       {
-        "question": "Is Cryzen.io free to play?",
-        "answer": "Yes, Cryzen.io is completely free to play in your web browser. No download or registration required."
+        "question": "Is Krunker.io free to play?",
+        "answer": "Yes, Krunker.io is completely free to play in your web browser. No download or registration required."
       },
       {
-        "question": "Can I play Cryzen.io on mobile?",
-        "answer": "Cryzen.io is optimized for desktop browsers. Mobile support may vary depending on your device."
+        "question": "Can I play Krunker.io on mobile?",
+        "answer": "Krunker.io is optimized for desktop browsers with mouse and keyboard. Mobile play is not officially supported."
       },
       {
-        "question": "How do I get better weapons in Cryzen.io?",
-        "answer": "Weapons are scattered across the map. Explore different areas to find better guns and equipment."
+        "question": "How do I get better weapons in Krunker.io?",
+        "answer": "You can choose different weapon classes at the start of each match. Each class has unique strengths - experiment to find your favorite."
       }
     ]
   },
@@ -35,6 +36,7 @@
     "category": "platformer",
     "description": "Level Devil is a challenging platformer game that will test your reflexes and patience. Navigate through increasingly difficult levels filled with traps, obstacles, and surprises. Each level brings a new twist to keep you on your toes.",
     "embedUrl": "https://www.crazygames.com/embed/level-devil",
+    "thumbnail": "/thumbnails/level-devil.jpg",
     "tags": ["platformer", "puzzle", "hard", "casual"],
     "featured": true,
     "howToPlay": "Use arrow keys or WASD to move and jump. Avoid traps and reach the end of each level. Watch out for unexpected obstacles!",
@@ -61,6 +63,7 @@
     "category": "driving",
     "description": "Escape Road is an exciting driving game where you must escape from pursuing police cars. Navigate through city streets, avoid obstacles, and survive as long as possible while the heat intensifies.",
     "embedUrl": "https://www.crazygames.com/embed/escape-road-asm",
+    "thumbnail": "/thumbnails/escape-road.jpg",
     "tags": ["driving", "car", "chase", "3d", "casual"],
     "featured": true,
     "howToPlay": "Use arrow keys or WASD to steer your car. Avoid police cars and obstacles. Collect power-ups to help you escape. Survive as long as possible!",
@@ -87,6 +90,7 @@
     "category": "io",
     "description": "Smash Karts is a fun and chaotic multiplayer .io kart battle game. Drive your kart, collect weapons, and smash your opponents in this action-packed arena. Last kart standing wins!",
     "embedUrl": "https://www.crazygames.com/embed/smash-karts",
+    "thumbnail": "/thumbnails/smash-karts.jpg",
     "tags": ["io", "racing", "battle", "multiplayer", "3d"],
     "featured": true,
     "howToPlay": "Drive your kart with WASD or arrow keys. Collect weapon boxes to get rockets, machine guns, and more. Eliminate other players to score points.",
@@ -113,6 +117,7 @@
     "category": "io",
     "description": "Shell Shockers is the world's most popular egg-based multiplayer FPS .io game. Armed with powerful weapons, you battle other eggs in intense arena combat. Crack your opponents before they crack you!",
     "embedUrl": "https://www.crazygames.com/embed/shellshockersio",
+    "thumbnail": "/thumbnails/shell-shockers.jpg",
     "tags": ["fps", "io", "multiplayer", "shooting", "2d"],
     "featured": true,
     "howToPlay": "Use WASD to move, mouse to aim, left click to shoot. Choose from different weapon classes. Eliminate enemy eggs to score.",
@@ -143,6 +148,7 @@
     "category": "io",
     "description": "Agar.io is the original .io game that started it all. Control a small cell, eat pellets to grow, and consume smaller players while avoiding larger ones. Simple to learn, impossible to master.",
     "embedUrl": "https://www.crazygames.com/embed/agario",
+    "thumbnail": "/thumbnails/agar-io.jpg",
     "tags": ["io", "multiplayer", "survival", "casual"],
     "featured": false,
     "howToPlay": "Move your mouse to steer your cell. Eat smaller cells and pellets to grow. Avoid larger cells that can eat you. Split with Space to attack or escape.",
@@ -165,6 +171,7 @@
     "category": "driving",
     "description": "Moto X3M is a thrilling motorcycle obstacle course game. Race through increasingly dangerous tracks, perform backflips, and try to complete each level as fast as possible. With dozens of levels, the fun never stops.",
     "embedUrl": "https://www.crazygames.com/embed/moto-x3m",
+    "thumbnail": "/thumbnails/moto-x3m.jpg",
     "tags": ["driving", "motorcycle", "obstacle", "casual", "2d"],
     "featured": false,
     "howToPlay": "Use the up arrow to accelerate, down to brake. Lean forward/backward with left/right arrows. Perform flips for time bonuses!",
@@ -182,33 +189,12 @@
     ]
   },
   {
-    "slug": "stickman-hook",
-    "title": "Stickman Hook",
-    "category": "casual",
-    "description": "Stickman Hook is a simple yet addictive physics game. Swing from point to point like Spider-Man, build momentum, and reach the finish line. Easy to play, hard to master!",
-    "embedUrl": "https://www.crazygames.com/embed/stickman-hook",
-    "tags": ["physics", "casual", "swinging", "2d"],
-    "featured": false,
-    "howToPlay": "Click and hold to attach to the nearest hook. Release to let go. Build momentum by timing your swings.",
-    "tips": [
-      "Release at the peak of your swing for maximum distance",
-      "Don't hold on too long - you'll lose momentum",
-      "Some levels require precise timing",
-      "Look ahead to plan your hook sequence"
-    ],
-    "faq": [
-      {
-        "question": "Is Stickman Hook free to play?",
-        "answer": "Yes, Stickman Hook is free to play on PlayOnHub in your web browser."
-      }
-    ]
-  },
-  {
     "slug": "1v1-lol",
     "title": "1v1.LOL",
     "category": "io",
     "description": "1v1.LOL is a competitive third-person shooter where you can build structures while fighting. Practice your aim, build defensive walls, and outsmart your opponent in intense 1v1 battles.",
     "embedUrl": "https://www.crazygames.com/embed/1v1-lol",
+    "thumbnail": "/thumbnails/1v1-lol.jpg",
     "tags": ["fps", "building", "io", "multiplayer", "3d"],
     "featured": false,
     "howToPlay": "Use WASD to move, mouse to aim and shoot. Press building keys to place walls, ramps, and platforms. Combine building and shooting to win.",
@@ -231,6 +217,7 @@
     "category": "puzzle",
     "description": "2048 is the viral puzzle game that took the world by storm. Slide numbered tiles to combine them, doubling their value each time. Reach the 2048 tile to win, then keep going for higher scores!",
     "embedUrl": "https://www.crazygames.com/embed/2048",
+    "thumbnail": "/thumbnails/2048.jpg",
     "tags": ["puzzle", "math", "casual", "addictive"],
     "featured": false,
     "howToPlay": "Use arrow keys to slide all tiles in that direction. When two tiles with the same number touch, they merge into one with double the value. Reach 2048!",
@@ -252,50 +239,271 @@
     ]
   },
   {
-    "slug": "wordle-unlimited",
-    "title": "Wordle Unlimited",
-    "category": "puzzle",
-    "description": "Wordle Unlimited lets you play the popular word-guessing game without waiting. Guess the hidden 5-letter word in 6 tries. Green means correct letter and position, yellow means correct letter wrong position.",
-    "embedUrl": "https://www.crazygames.com/embed/wordle-unlimited",
-    "tags": ["word", "puzzle", "casual", "daily"],
-    "featured": false,
-    "howToPlay": "Type a 5-letter word and press Enter. Green tiles = correct letter, correct position. Yellow tiles = correct letter, wrong position. Gray tiles = letter not in word.",
+    "slug": "slope",
+    "title": "Slope",
+    "category": "casual",
+    "description": "Slope is an addictive 3D endless runner that tests your reflexes. Control a ball speeding down a neon slope, dodge obstacles, and survive as long as possible. The longer you last, the faster it gets!",
+    "embedUrl": "https://www.crazygames.com/embed/slope",
+    "thumbnail": "/thumbnails/slope.jpg",
+    "tags": ["arcade", "3d", "reflex", "endless", "casual"],
+    "featured": true,
+    "howToPlay": "Use the left and right arrow keys (or A/D) to steer the ball. Avoid red obstacles and gaps in the slope. The ball speeds up over time!",
     "tips": [
-      "Start with a word that has common letters (like CRANE or SLATE)",
-      "Avoid repeating letters in your first few guesses",
-      "Pay attention to yellow tiles - they narrow down possibilities",
-      "Use process of elimination with gray tiles"
+      "Stay near the center to have more reaction time",
+      "Make small adjustments - sharp turns can send you off the edge",
+      "Look ahead to plan your path through obstacles",
+      "The game gets faster - stay calm and focused"
     ],
     "faq": [
       {
-        "question": "Can I play Wordle more than once a day?",
-        "answer": "Yes! Wordle Unlimited on PlayOnHub lets you play as many rounds as you want, anytime."
+        "question": "How do I get a high score in Slope?",
+        "answer": "Practice makes perfect. Focus on small movements, anticipate obstacles, and stay calm as the speed increases."
       },
       {
-        "question": "What's the best starting word for Wordle?",
-        "answer": "Words with common letters like CRANE, SLATE, or AUDIO are great starting words that maximize information."
+        "question": "Is Slope free to play?",
+        "answer": "Yes, Slope is completely free to play on PlayOnHub in your web browser."
       }
     ]
   },
   {
-    "slug": "monkey-tag-io",
-    "title": "Monkey Tag IO",
+    "slug": "lolbeans-io",
+    "title": "LOLBeans.io",
     "category": "io",
-    "description": "Monkey Tag IO is a fun multiplayer game where you play as monkeys in an arena. Tag other players to become 'it' and avoid being tagged yourself. Simple, chaotic, and incredibly fun!",
-    "embedUrl": "https://www.crazygames.com/embed/monkey-tag-io",
-    "tags": ["io", "multiplayer", "casual", "tag"],
+    "description": "LOLBeans.io is a hilarious multiplayer party game inspired by Fall Guys. Race against other beans through chaotic obstacle courses, avoid falling off, and be the last bean standing to win!",
+    "embedUrl": "https://www.crazygames.com/embed/lolbeans-io",
+    "thumbnail": "/thumbnails/lolbeans-io.jpg",
+    "tags": ["io", "multiplayer", "party", "casual", "3d"],
     "featured": false,
-    "howToPlay": "Move with WASD. If you're 'it', tag other players by touching them. If you're not 'it', run away and survive!",
+    "howToPlay": "Use WASD or arrow keys to move and Space to jump. Navigate through obstacle courses, avoid falling, and reach the finish line before others!",
     "tips": [
-      "Use the environment to juke pursuers",
-      "Stick with groups - harder to get tagged",
-      "Watch for players trying to corner you",
-      "Speed boosts appear randomly - grab them"
+      "Don't rush - timing is more important than speed",
+      "Watch how other players tackle obstacles to learn the best path",
+      "Use jumps strategically to clear gaps",
+      "Stay on the edges of moving platforms for safety"
     ],
     "faq": [
       {
-        "question": "Is Monkey Tag IO multiplayer?",
-        "answer": "Yes, Monkey Tag IO is a real-time multiplayer game where you play with others online."
+        "question": "Is LOLBeans.io like Fall Guys?",
+        "answer": "Yes! LOLBeans.io is a browser-based version of the Fall Guys concept with similar obstacle course racing gameplay."
+      },
+      {
+        "question": "Can I play LOLBeans.io with friends?",
+        "answer": "LOLBeans.io is a multiplayer game where you play with other online players. Create a private room to play with specific friends."
+      }
+    ]
+  },
+  {
+    "slug": "word-scramble",
+    "title": "Word Scramble",
+    "category": "puzzle",
+    "description": "Word Scramble is an addictive word puzzle game. Unscramble letters to form valid words before time runs out. With increasing difficulty and hundreds of words, it's perfect for word game lovers.",
+    "embedUrl": "https://www.crazygames.com/embed/word-scramble",
+    "thumbnail": "/thumbnails/word-scramble.jpg",
+    "tags": ["word", "puzzle", "casual", "educational"],
+    "featured": false,
+    "howToPlay": "Look at the scrambled letters and rearrange them to form a valid word. Type your answer or click letters in order. Beat the clock for bonus points!",
+    "tips": [
+      "Look for common prefixes and suffixes first",
+      "Try rearranging vowels - they often form the core of words",
+      "Start with shorter words to build confidence",
+      "Use the hint system if you're really stuck"
+    ],
+    "faq": [
+      {
+        "question": "How do I get better at Word Scramble?",
+        "answer": "Practice regularly to expand your vocabulary. Learn common letter patterns and word structures."
+      }
+    ]
+  },
+  {
+    "slug": "kirka-io",
+    "title": "Kirka.io",
+    "category": "io",
+    "description": "Kirka.io is a fast-paced pixelated multiplayer FPS. Battle players online across various maps with different weapons and game modes. The retro pixel art style combined with smooth FPS action makes it unique.",
+    "embedUrl": "https://www.crazygames.com/embed/kirka-io",
+    "thumbnail": "/thumbnails/kirka-io.jpg",
+    "tags": ["fps", "multiplayer", "shooting", "io", "pixel"],
+    "featured": false,
+    "howToPlay": "Use WASD to move, mouse to aim and shoot. Select your weapon and game mode. Eliminate enemies to earn XP and unlock new weapons.",
+    "tips": [
+      "Learn the map layout to find the best angles",
+      "Use cover effectively - pixel art makes it easy to spot enemies",
+      "Upgrade your weapons as you level up",
+      "Play team modes to learn the basics before trying free-for-all"
+    ],
+    "faq": [
+      {
+        "question": "Is Kirka.io free to play?",
+        "answer": "Yes, Kirka.io is free to play in your web browser. You can unlock additional weapons by playing and earning XP."
+      }
+    ]
+  },
+  {
+    "slug": "bloxdhop-io",
+    "title": "Bloxd.io",
+    "category": "io",
+    "description": "Bloxd.io is a creative multiplayer sandbox game where you can build, explore, and play with others. Jump into obby (obstacle course) modes, build structures, or just hang out in this blocky online world.",
+    "embedUrl": "https://www.crazygames.com/embed/bloxdhop-io",
+    "thumbnail": "/thumbnails/bloxdhop-io.jpg",
+    "tags": ["io", "multiplayer", "sandbox", "building", "3d"],
+    "featured": false,
+    "howToPlay": "Use WASD to move, Space to jump, and mouse to look around. In obby mode, navigate through obstacle courses. In creative mode, build whatever you want!",
+    "tips": [
+      "In obby mode, take your time with difficult jumps",
+      "Use the building tools to create your own challenges",
+      "Team up with other players for co-op building",
+      "Watch out for other players who might interfere with your builds"
+    ],
+    "faq": [
+      {
+        "question": "Is Bloxd.io like Minecraft?",
+        "answer": "Bloxd.io has similar blocky graphics but focuses on multiplayer obby courses and creative building. It's a lighter, browser-based alternative."
+      }
+    ]
+  },
+  {
+    "slug": "diepio",
+    "title": "Diep.io",
+    "category": "io",
+    "description": "Diep.io is a classic tank shooter .io game. Control a tank, shoot shapes and enemies to level up, and choose from multiple upgrade paths. Build the ultimate tank and dominate the arena!",
+    "embedUrl": "https://www.crazygames.com/embed/diepio",
+    "thumbnail": "/thumbnails/diepio.jpg",
+    "tags": ["io", "multiplayer", "shooting", "tanks", "2d"],
+    "featured": false,
+    "howToPlay": "Move with WASD or mouse, aim with mouse, click or Space to shoot. Destroy shapes to gain XP. Level up to choose stat upgrades and tank evolutions.",
+    "tips": [
+      "Focus on destroying squares early to level up fast",
+      "Invest in bullet speed and damage for offensive builds",
+      "Invest in health regen and body damage for tank builds",
+      "Avoid triangles and pentagons until you're strong enough"
+    ],
+    "faq": [
+      {
+        "question": "What is the best tank build in Diep.io?",
+        "answer": "It depends on your playstyle. Bullet speed/damage builds are great for ranged combat, while body damage builds excel in close quarters."
+      }
+    ]
+  },
+  {
+    "slug": "paper-io-2",
+    "title": "Paper.io 2",
+    "category": "io",
+    "description": "Paper.io 2 is a strategic territory conquest game. Draw lines to claim territory, but don't let anyone cross your trail before you complete it. Expand your domain and eliminate opponents!",
+    "embedUrl": "https://www.crazygames.com/embed/paper-io-2",
+    "thumbnail": "/thumbnails/paper-io-2.jpg",
+    "tags": ["io", "multiplayer", "strategy", "casual", "2d"],
+    "featured": false,
+    "howToPlay": "Move with arrow keys or swipe. Leave your territory to draw a trail, then return to claim the enclosed area. Don't let enemies touch your trail!",
+    "tips": [
+      "Make small claims to minimize risk",
+      "Watch for enemies trying to cross your trail",
+      "Camp near enemy trails to intercept them",
+      "Expand toward the edges where there's less competition"
+    ],
+    "faq": [
+      {
+        "question": "How do I win in Paper.io 2?",
+        "answer": "Claim the most territory by drawing trails and returning safely. Eliminate opponents by crossing their trails."
+      }
+    ]
+  },
+  {
+    "slug": "skribblio",
+    "title": "Skribbl.io",
+    "category": "io",
+    "description": "Skribbl.io is a fun multiplayer drawing and guessing game. Take turns drawing words while other players guess what it is. The faster you guess, the more points you earn!",
+    "embedUrl": "https://www.crazygames.com/embed/skribblio",
+    "thumbnail": "/thumbnails/skribblio.jpg",
+    "tags": ["io", "multiplayer", "party", "drawing", "casual"],
+    "featured": false,
+    "howToPlay": "When it's your turn, you'll get a word to draw. Use the drawing tools to illustrate it. When others draw, type your guesses in the chat box.",
+    "tips": [
+      "Draw simple shapes first, then add details",
+      "Use colors that match the object you're drawing",
+      "Guess quickly even if you're not sure - speed earns more points",
+      "Avoid drawing words literally - use associations and symbols"
+    ],
+    "faq": [
+      {
+        "question": "Can I play Skribbl.io with friends?",
+        "answer": "Yes! Create a private room and share the link with your friends to play together."
+      },
+      {
+        "question": "Is Skribbl.io free?",
+        "answer": "Yes, Skribbl.io is completely free to play in your web browser."
+      }
+    ]
+  },
+  {
+    "slug": "drift-hunters",
+    "title": "Drift Hunters",
+    "category": "driving",
+    "description": "Drift Hunters is the ultimate browser drifting game. Choose from dozens of tuned cars, hit the perfect drift angle, and chain drifts for massive scores. With multiple tracks and deep car customization, it's a drift lover's dream.",
+    "embedUrl": "https://www.crazygames.com/embed/drift-hunters",
+    "thumbnail": "/thumbnails/drift-hunters.jpg",
+    "tags": ["driving", "drift", "car", "3d", "tuning"],
+    "featured": true,
+    "howToPlay": "Use WASD or arrow keys to drive. Initiate drifts by steering into a turn while tapping the handbrake. Maintain the drift angle to earn points.",
+    "tips": [
+      "Higher drift angles earn more points",
+      "Chain drifts together for combo multipliers",
+      "Upgrade your car's power and handling for better drifts",
+      "Practice on slower tracks before hitting the high-speed circuits"
+    ],
+    "faq": [
+      {
+        "question": "How do I drift in Drift Hunters?",
+        "answer": "Approach a corner at speed, steer into the turn, and tap the handbrake to break traction. Counter-steer to maintain the drift angle."
+      },
+      {
+        "question": "Can I upgrade my car in Drift Hunters?",
+        "answer": "Yes! Earn drift points to buy new cars and upgrade performance parts like engine, turbo, tires, and suspension."
+      }
+    ]
+  },
+  {
+    "slug": "basket-random",
+    "title": "Basket Random",
+    "category": "sports",
+    "description": "Basket Random is a hilarious 2-player physics basketball game. Each shot changes the physics randomly, making every play unpredictable and funny. Play against a friend or the AI!",
+    "embedUrl": "https://www.crazygames.com/embed/basket-random",
+    "thumbnail": "/thumbnails/basket-random.jpg",
+    "tags": ["sports", "basketball", "2-player", "physics", "casual"],
+    "featured": false,
+    "howToPlay": "Player 1 uses W to jump and shoot. Player 2 uses Up arrow. Time your jumps to catch the ball and shoot it into the hoop. First to 5 points wins!",
+    "tips": [
+      "Jump at the right moment - timing is everything",
+      "The physics change each round, so adapt quickly",
+      "Block your opponent's shots by jumping at the same time",
+      "Aim for the backboard for more reliable shots"
+    ],
+    "faq": [
+      {
+        "question": "Can I play Basket Random with a friend?",
+        "answer": "Yes! Basket Random supports local 2-player mode. Player 1 uses W, Player 2 uses Up arrow."
+      }
+    ]
+  },
+  {
+    "slug": "eggy-car",
+    "title": "Eggy Car",
+    "category": "casual",
+    "description": "Eggy Car is a fun and challenging casual driving game. Balance an egg on top of a car as you drive over bumpy terrain. Go too fast and the egg falls - too slow and you won't reach the next checkpoint!",
+    "embedUrl": "https://www.crazygames.com/embed/eggy-car",
+    "thumbnail": "/thumbnails/eggy-car.jpg",
+    "tags": ["casual", "driving", "physics", "balance", "2d"],
+    "featured": false,
+    "howToPlay": "Use D or right arrow to accelerate, A or left arrow to brake/reverse. Drive carefully over hills to keep the egg from falling off the car.",
+    "tips": [
+      "Slow down before hills to avoid launching the egg",
+      "Use gentle acceleration on steep climbs",
+      "Collect coins to unlock new vehicles",
+      "Some cars have better egg stability - try them all"
+    ],
+    "faq": [
+      {
+        "question": "How do I keep the egg on the car?",
+        "answer": "Drive slowly and carefully. Avoid sudden acceleration or braking, especially on hills. Smooth driving is key."
       }
     ]
   }
