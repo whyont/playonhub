@@ -293,25 +293,29 @@
     ]
   },
   {
-    "slug": "word-scramble",
-    "title": "Word Scramble",
+    "slug": "hangman",
+    "title": "Hangman",
     "category": "puzzle",
-    "description": "Word Scramble is an addictive word puzzle game. Unscramble letters to form valid words before time runs out. With increasing difficulty and hundreds of words, it's perfect for word game lovers.",
-    "embedUrl": "https://www.crazygames.com/embed/word-scramble",
-    "thumbnail": "/thumbnails/word-scramble.jpg",
+    "description": "Hangman is the classic word guessing game reimagined for the browser. Guess letters to reveal the hidden word before the stick figure is complete. With thousands of words across multiple categories, it's perfect for vocabulary building and quick brain teasers.",
+    "embedUrl": "https://www.crazygames.com/embed/hangman",
+    "thumbnail": "/thumbnails/hangman.jpg",
     "tags": ["word", "puzzle", "casual", "educational"],
     "featured": false,
-    "howToPlay": "Look at the scrambled letters and rearrange them to form a valid word. Type your answer or click letters in order. Beat the clock for bonus points!",
+    "howToPlay": "Guess letters by clicking them or typing on your keyboard. Each wrong guess adds a body part to the hangman. Reveal the full word before the figure is complete to win!",
     "tips": [
-      "Look for common prefixes and suffixes first",
-      "Try rearranging vowels - they often form the core of words",
-      "Start with shorter words to build confidence",
-      "Use the hint system if you're really stuck"
+      "Start with vowels - E, A, I, O, U appear in most words",
+      "Common consonants like R, S, T, L, N are good second guesses",
+      "Look at word length to narrow down possibilities",
+      "If you see a pattern like _ i g h t, think 'right', 'light', 'night'"
     ],
     "faq": [
       {
-        "question": "How do I get better at Word Scramble?",
-        "answer": "Practice regularly to expand your vocabulary. Learn common letter patterns and word structures."
+        "question": "Is Hangman good for learning?",
+        "answer": "Yes! Hangman helps build vocabulary and spelling skills while being fun. It's great for English learners and kids."
+      },
+      {
+        "question": "How many wrong guesses do I get?",
+        "answer": "Traditionally you get 6 wrong guesses (head, body, 2 arms, 2 legs) before the game ends."
       }
     ]
   },
@@ -504,6 +508,33 @@
       {
         "question": "How do I keep the egg on the car?",
         "answer": "Drive slowly and carefully. Avoid sudden acceleration or braking, especially on hills. Smooth driving is key."
+      }
+    ]
+  },
+  {
+    "slug": "moto-x3m-2",
+    "title": "Moto X3M 2",
+    "category": "driving",
+    "description": "Moto X3M 2 is the sequel to the popular Moto X3M motorcycle stunt game. With new levels, more dangerous obstacles, and even bigger jumps, it takes the challenge to the next level. Perform flips, beat the clock, and conquer all 25 stages!",
+    "embedUrl": "https://www.crazygames.com/embed/moto-x3m-2",
+    "thumbnail": "/thumbnails/moto-x3m-2.jpg",
+    "tags": ["driving", "motorcycle", "obstacle", "casual", "2d"],
+    "featured": false,
+    "howToPlay": "Use the up arrow to accelerate, down to brake. Lean forward/backward with left/right arrows. Perform backflips for time bonuses. Complete each level as fast as possible!",
+    "tips": [
+      "Backflips give time bonuses - do them whenever you have air time",
+      "New levels have moving obstacles - time your jumps carefully",
+      "Lean backward on landing ramps to avoid flipping over",
+      "Some levels have hidden shortcuts - explore the edges"
+    ],
+    "faq": [
+      {
+        "question": "Is Moto X3M 2 harder than the original?",
+        "answer": "Yes, Moto X3M 2 features more complex level designs with moving obstacles, tighter jumps, and trickier terrain."
+      },
+      {
+        "question": "How many levels does Moto X3M 2 have?",
+        "answer": "Moto X3M 2 features 25 brand new levels with progressively increasing difficulty."
       }
     ]
   }
