@@ -1,21 +1,24 @@
 import { getFeaturedGames, games, getAllCategories, blogPosts } from "@/lib/games";
 import GameCard from "@/components/GameCard";
 import Link from "next/link";
+import { Globe, Footprints, Car, Target, Puzzle, Swords, Gamepad2, Trophy, ChevronRight } from "lucide-react";
+import type { LucideIcon } from "lucide-react";
 
-const CATEGORY_ICONS: Record<string, string> = {
-  io: "🌐",
-  platformer: "🏃",
-  driving: "🏎️",
-  casual: "🎯",
-  puzzle: "🧩",
-  action: "⚔️",
-  arcade: "👾",
-  shooter: "🔫",
-  racing: "🏁",
+const CATEGORY_ICONS: Record<string, LucideIcon> = {
+  io: Globe,
+  platformer: Footprints,
+  driving: Car,
+  casual: Target,
+  puzzle: Puzzle,
+  action: Swords,
+  arcade: Gamepad2,
+  shooter: Trophy,
+  sports: Trophy,
 };
 
-function getCategoryIcon(slug: string): string {
-  return CATEGORY_ICONS[slug] || "🎮";
+function CategoryIcon({ slug }: { slug: string }) {
+  const Icon = CATEGORY_ICONS[slug] || Gamepad2;
+  return <Icon size={20} strokeWidth={2} />;
 }
 
 export default function HomePage() {
@@ -65,7 +68,9 @@ export default function HomePage() {
               href={`/category/${cat.slug}`}
               className="category-pill"
             >
-              <span className="category-pill-icon">{getCategoryIcon(cat.slug)}</span>
+              <span className="category-pill-icon">
+                <CategoryIcon slug={cat.slug} />
+              </span>
               <span className="category-pill-name">{cat.name}</span>
               <span className="category-pill-count">{cat.count} games</span>
             </Link>
@@ -85,7 +90,12 @@ export default function HomePage() {
 
       {/* Latest Articles */}
       <section className="home-section">
-        <h2 className="section-title">Latest Articles</h2>
+        <div className="section-header-row">
+          <h2 className="section-title">Latest Articles</h2>
+          <Link href="/blog" className="view-all-link">
+            View all <ChevronRight size={16} />
+          </Link>
+        </div>
         <div className="grid-blog">
           {recentBlog.map((post) => (
             <Link key={post.slug} href={`/blog/${post.slug}`} className="blog-card">
@@ -155,6 +165,34 @@ export default function HomePage() {
 
         .home-section {
           margin-bottom: 3.5rem;
+        }
+
+        .section-header-row {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin-bottom: 1.5rem;
+        }
+
+        .section-header-row .section-title {
+          margin-bottom: 0;
+        }
+
+        .view-all-link {
+          display: inline-flex;
+          align-items: center;
+          gap: 0.25rem;
+          font-family: "Outfit", sans-serif;
+          font-size: 0.85rem;
+          font-weight: 600;
+          color: var(--color-secondary-light);
+          text-decoration: none;
+          transition: gap var(--transition);
+        }
+
+        .view-all-link:hover {
+          gap: 0.5rem;
+          color: var(--color-secondary);
         }
 
         @media (max-width: 768px) {

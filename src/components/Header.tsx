@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { getAllCategories } from "@/lib/games";
+import { Gamepad2, Menu, X } from "lucide-react";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -13,6 +14,7 @@ export default function Header() {
       <div className="container site-header-inner">
         {/* Logo */}
         <Link href="/" className="site-logo">
+          <Gamepad2 size={26} className="site-logo-icon" strokeWidth={2.5} />
           <span className="site-logo-mark">Play</span>
           <span className="site-logo-text">On</span>
           <span className="site-logo-accent">Hub</span>
@@ -44,11 +46,7 @@ export default function Header() {
           aria-label="Toggle menu"
           aria-expanded={menuOpen}
         >
-          <span className={menuOpen ? "hamburger open" : "hamburger"}>
-            <span></span>
-            <span></span>
-            <span></span>
-          </span>
+          {menuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
       </div>
 
@@ -93,27 +91,28 @@ export default function Header() {
         .site-logo {
           display: flex;
           align-items: center;
-          gap: 0.15rem;
+          gap: 0.35rem;
           font-family: "Outfit", sans-serif;
           font-weight: 800;
           font-size: 1.35rem;
           letter-spacing: -0.02em;
           text-decoration: none;
-          background: linear-gradient(120deg, var(--color-brand), var(--color-secondary));
-          -webkit-background-clip: text;
-          background-clip: text;
-          -webkit-text-fill-color: transparent;
-          color: transparent;
           filter: drop-shadow(0 0 12px rgba(124, 58, 237, 0.35));
+        }
+
+        .site-logo-icon {
+          color: var(--color-secondary);
+          filter: drop-shadow(0 0 8px rgba(6, 182, 212, 0.5));
         }
 
         .site-logo-mark,
         .site-logo-text,
         .site-logo-accent {
-          -webkit-text-fill-color: transparent;
           background: linear-gradient(120deg, var(--color-brand) 0%, var(--color-secondary) 70%, var(--color-accent) 100%);
           -webkit-background-clip: text;
           background-clip: text;
+          -webkit-text-fill-color: transparent;
+          color: transparent;
         }
 
         .desktop-nav {
@@ -146,32 +145,7 @@ export default function Header() {
           border: none;
           cursor: pointer;
           padding: 0.4rem;
-        }
-
-        .hamburger {
-          display: flex;
-          flex-direction: column;
-          gap: 5px;
-          width: 26px;
-        }
-
-        .hamburger span {
-          display: block;
-          height: 2px;
-          width: 100%;
-          background: var(--color-text);
-          border-radius: 2px;
-          transition: transform 0.3s ease, opacity 0.3s ease;
-        }
-
-        .hamburger.open span:nth-child(1) {
-          transform: translateY(7px) rotate(45deg);
-        }
-        .hamburger.open span:nth-child(2) {
-          opacity: 0;
-        }
-        .hamburger.open span:nth-child(3) {
-          transform: translateY(-7px) rotate(-45deg);
+          color: var(--color-text);
         }
 
         .mobile-nav {
