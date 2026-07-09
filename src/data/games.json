@@ -1,5 +1,40 @@
 [
   {
+    "slug": "deadshot-io",
+    "title": "Deadshot.io",
+    "category": "io",
+    "description": "Deadshot.io is a fast-paced multiplayer FPS browser game with stunning 3D graphics and intense competitive gameplay. Battle players worldwide in multiple game modes, customize your loadout, and climb the leaderboard in this action-packed online shooter.",
+    "embedUrl": "https://www.crazygames.com/embed/deadshot-io",
+    "thumbnail": "/thumbnails/deadshot-io.jpg",
+    "tags": ["fps", "io", "multiplayer", "shooting", "3d", "competitive"],
+    "featured": true,
+    "howToPlay": "Use WASD to move, mouse to aim and shoot, R to reload, Shift to sprint, and Space to jump. Choose your weapon loadout before each match. Eliminate enemies to score points and climb the leaderboard.",
+    "tips": [
+      "Aim for headshots to deal maximum damage and eliminate enemies faster",
+      "Use cover and peek around corners rather than running into the open",
+      "Customize your loadout to match your playstyle - try different weapon combinations",
+      "Stay mobile - strafing while shooting makes you harder to hit"
+    ],
+    "faq": [
+      {
+        "question": "Is Deadshot.io free to play?",
+        "answer": "Yes, Deadshot.io is completely free to play in your web browser. No download or registration required."
+      },
+      {
+        "question": "Can I play Deadshot.io on mobile?",
+        "answer": "Deadshot.io is optimized for desktop browsers with mouse and keyboard controls for the best FPS experience."
+      },
+      {
+        "question": "What game modes does Deadshot.io have?",
+        "answer": "Deadshot.io offers multiple game modes including Free For All, Team Deathmatch, and other competitive modes with different maps."
+      },
+      {
+        "question": "How do I get better at Deadshot.io?",
+        "answer": "Practice your aim in deathmatch, learn map layouts for positioning advantages, and experiment with different weapon loadouts to find what suits your playstyle."
+      }
+    ]
+  },
+  {
     "slug": "krunker-io",
     "title": "Krunker.io",
     "category": "io",
