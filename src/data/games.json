@@ -277,10 +277,10 @@
     "slug": "slope",
     "title": "Slope",
     "category": "casual",
-    "description": "Slope is an addictive 3D endless runner that tests your reflexes. Control a ball speeding down a neon slope, dodge obstacles, and survive as long as possible. The longer you last, the faster it gets!",
+    "description": "Play Slope unblocked free online! Control a ball on a neon 3D slope, dodge obstacles, and survive as long as possible in this addictive endless runner game. No download required.",
     "embedUrl": "https://www.crazygames.com/embed/slope",
     "thumbnail": "/thumbnails/slope.jpg",
-    "tags": ["arcade", "3d", "reflex", "endless", "casual"],
+    "tags": ["arcade", "3d", "reflex", "endless", "casual", "unblocked", "runner", "ball"],
     "featured": true,
     "howToPlay": "Use the left and right arrow keys (or A/D) to steer the ball. Avoid red obstacles and gaps in the slope. The ball speeds up over time!",
     "tips": [
@@ -296,7 +296,15 @@
       },
       {
         "question": "Is Slope free to play?",
-        "answer": "Yes, Slope is completely free to play on PlayOnHub in your web browser."
+        "answer": "Yes, Slope is completely free to play on PlayOnHub in your web browser. No download or registration required."
+      },
+      {
+        "question": "Can I play Slope unblocked at school?",
+        "answer": "Yes! You can play Slope on PlayOnHub from any browser. Check your school's internet policy for access."
+      },
+      {
+        "question": "What is Slope?",
+        "answer": "Slope is a 3D endless runner game where you control a ball speeding down a neon slope. Dodge obstacles and survive as long as possible."
       }
     ]
   },
@@ -504,10 +512,10 @@
     "slug": "basket-random",
     "title": "Basket Random",
     "category": "sports",
-    "description": "Basket Random is a hilarious 2-player physics basketball game. Each shot changes the physics randomly, making every play unpredictable and funny. Play against a friend or the AI!",
+    "description": "Play Basket Random unblocked - a hilarious 2-player physics basketball game online free! Random physics make every play unpredictable. No download needed, just play!",
     "embedUrl": "https://www.crazygames.com/embed/basket-random",
     "thumbnail": "/thumbnails/basket-random.jpg",
-    "tags": ["sports", "basketball", "2-player", "physics", "casual"],
+    "tags": ["sports", "basketball", "2-player", "physics", "casual", "unblocked", "online"],
     "featured": false,
     "howToPlay": "Player 1 uses W to jump and shoot. Player 2 uses Up arrow. Time your jumps to catch the ball and shoot it into the hoop. First to 5 points wins!",
     "tips": [
@@ -520,6 +528,14 @@
       {
         "question": "Can I play Basket Random with a friend?",
         "answer": "Yes! Basket Random supports local 2-player mode. Player 1 uses W, Player 2 uses Up arrow."
+      },
+      {
+        "question": "Is Basket Random free to play?",
+        "answer": "Yes, Basket Random is completely free to play on PlayOnHub. No download or registration required."
+      },
+      {
+        "question": "Can I play Basket Random unblocked at school?",
+        "answer": "You can play Basket Random on PlayOnHub from any browser. Check your school's internet policy for access."
       }
     ]
   },
@@ -527,10 +543,10 @@
     "slug": "eggy-car",
     "title": "Eggy Car",
     "category": "casual",
-    "description": "Eggy Car is a fun and challenging casual driving game. Balance an egg on top of a car as you drive over bumpy terrain. Go too fast and the egg falls - too slow and you won't reach the next checkpoint!",
+    "description": "Play Eggy Car free online! Balance an egg on your car while driving over bumpy terrain in this fun physics driving game. No download needed, play instantly in your browser!",
     "embedUrl": "https://www.crazygames.com/embed/eggy-car",
     "thumbnail": "/thumbnails/eggy-car.jpg",
-    "tags": ["casual", "driving", "physics", "balance", "2d"],
+    "tags": ["casual", "driving", "physics", "balance", "2d", "unblocked", "car-game"],
     "featured": false,
     "howToPlay": "Use D or right arrow to accelerate, A or left arrow to brake/reverse. Drive carefully over hills to keep the egg from falling off the car.",
     "tips": [
@@ -543,6 +559,14 @@
       {
         "question": "How do I keep the egg on the car?",
         "answer": "Drive slowly and carefully. Avoid sudden acceleration or braking, especially on hills. Smooth driving is key."
+      },
+      {
+        "question": "Is Eggy Car free to play?",
+        "answer": "Yes, Eggy Car is completely free to play on PlayOnHub. No download or registration required."
+      },
+      {
+        "question": "Can I play Eggy Car unblocked?",
+        "answer": "You can play Eggy Car on PlayOnHub from any browser. No download needed - just click and play!"
       }
     ]
   },
