@@ -19,13 +19,17 @@ export default function GameCard({ game }: { game: Game }) {
           <span className="game-card-title">{game.title}</span>
         </div>
         <div className="game-card-play">
-          <Play size={28} fill="currentColor" className="play-icon" />
+          <Play size={24} fill="currentColor" className="play-icon" />
         </div>
       </div>
 
       <div className="game-card-body">
-        <span className="category-badge">{game.category}</span>
-        {game.tags[0] && <span className="tag-badge">{game.tags[0]}</span>}
+        <span className="game-card-name">{game.title}</span>
+        <span className="game-card-desc">
+          {game.description.length > 80
+            ? game.description.slice(0, 77).trim() + "..."
+            : game.description}
+        </span>
       </div>
 
       <style>{`
@@ -37,8 +41,8 @@ export default function GameCard({ game }: { game: Game }) {
           display: flex;
           align-items: center;
           justify-content: center;
-          width: 56px;
-          height: 56px;
+          width: 52px;
+          height: 52px;
           border-radius: 50%;
           background: rgba(124, 58, 237, 0.85);
           backdrop-filter: blur(4px);
@@ -54,7 +58,7 @@ export default function GameCard({ game }: { game: Game }) {
         }
 
         .play-icon {
-          margin-left: 3px;
+          margin-left: 2px;
         }
       `}</style>
     </Link>
