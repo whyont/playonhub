@@ -129,33 +129,6 @@ export default function HomePage() {
         );
       })}
 
-      {/* ===== BROWSE BY CATEGORY ===== */}
-      <section className="home-section">
-        <div className="section-header">
-          <h2 className="section-title">
-            <span className="section-title-accent">Browse</span> by Category
-          </h2>
-        </div>
-        <div className="grid-categories">
-          {categories.map((cat) => (
-            <Link
-              key={cat.slug}
-              href={`/category/${cat.slug}`}
-              className="category-pill"
-            >
-              <span
-                className="category-pill-dot"
-                style={{
-                  background: CATEGORY_COLORS[cat.slug] || "#60a5fa",
-                }}
-              />
-              <span className="category-pill-name">{cat.name}</span>
-              <span className="category-pill-count">{cat.count} games</span>
-            </Link>
-          ))}
-        </div>
-      </section>
-
       {/* ===== LATEST ARTICLES ===== */}
       <section className="home-section">
         <div className="section-header">
@@ -183,15 +156,6 @@ export default function HomePage() {
           ))}
         </div>
       </section>
-
-      <style>{`
-        .category-pill-dot {
-          width: 10px;
-          height: 10px;
-          border-radius: 50%;
-          flex-shrink: 0;
-        }
-      `}</style>
     </div>
   );
 }

@@ -5,11 +5,11 @@
 @tailwind utilities;
 
 :root {
-  /* Backgrounds - dark but vibrant */
-  --color-bg: #0f0f1a;
-  --color-surface: #18182c;
-  --color-surface-2: #202038;
-  --color-surface-3: #2a2a48;
+  /* Backgrounds */
+  --color-bg: #0a0a14;
+  --color-surface: #12121e;
+  --color-surface-2: #1a1a2e;
+  --color-surface-3: #222236;
 
   /* Text */
   --color-text: #f0f0f8;
@@ -73,11 +73,11 @@ img {
   display: block;
 }
 
-/* Container */
+/* Container - full width */
 .container {
-  max-width: 1200px;
+  max-width: 1320px;
   margin: 0 auto;
-  padding: 0 1.25rem;
+  padding: 0 1.5rem;
 }
 
 /* ============================================

@@ -3,10 +3,10 @@
     "slug": "deadshot-io",
     "title": "Deadshot.io",
     "category": "io",
-    "description": "Deadshot.io is a fast-paced multiplayer FPS browser game with stunning 3D graphics and intense competitive gameplay. Battle players worldwide in multiple game modes, customize your loadout, and climb the leaderboard in this action-packed online shooter.",
+    "description": "Play Deadshot.io free online! A fast-paced multiplayer FPS browser game with 3D graphics and competitive gameplay. Battle players worldwide, customize your loadout, and climb the leaderboard. No download required!",
     "embedUrl": "https://www.crazygames.com/embed/deadshot-io",
     "thumbnail": "/thumbnails/deadshot-io.jpg",
-    "tags": ["fps", "io", "multiplayer", "shooting", "3d", "competitive"],
+    "tags": ["fps", "io", "multiplayer", "shooting", "3d", "competitive", "unblocked", "online"],
     "featured": true,
     "howToPlay": "Use WASD to move, mouse to aim and shoot, R to reload, Shift to sprint, and Space to jump. Choose your weapon loadout before each match. Eliminate enemies to score points and climb the leaderboard.",
     "tips": [
@@ -389,10 +389,10 @@
     "slug": "bloxdhop-io",
     "title": "Bloxd.io",
     "category": "io",
-    "description": "Bloxd.io is a creative multiplayer sandbox game where you can build, explore, and play with others. Jump into obby (obstacle course) modes, build structures, or just hang out in this blocky online world.",
+    "description": "Play Bloxd.io free online! A creative multiplayer sandbox game where you build, explore, and play obstacle courses with others. Minecraft-like blocky world right in your browser. No download needed!",
     "embedUrl": "https://www.crazygames.com/embed/bloxdhop-io",
     "thumbnail": "/thumbnails/bloxdhop-io.jpg",
-    "tags": ["io", "multiplayer", "sandbox", "building", "3d"],
+    "tags": ["io", "multiplayer", "sandbox", "building", "3d", "unblocked", "minecraft", "obby"],
     "featured": true,
     "howToPlay": "Use WASD to move, Space to jump, and mouse to look around. In obby mode, navigate through obstacle courses. In creative mode, build whatever you want!",
     "tips": [
@@ -405,6 +405,14 @@
       {
         "question": "Is Bloxd.io like Minecraft?",
         "answer": "Bloxd.io has similar blocky graphics but focuses on multiplayer obby courses and creative building. It's a lighter, browser-based alternative."
+      },
+      {
+        "question": "Is Bloxd.io free to play?",
+        "answer": "Yes, Bloxd.io is completely free to play in your web browser. No download or registration required."
+      },
+      {
+        "question": "Can I play Bloxd.io unblocked?",
+        "answer": "Yes! You can play Bloxd.io on PlayOnHub from any browser. No download needed - just click and play!"
       }
     ]
   },
@@ -594,6 +602,45 @@
       {
         "question": "How many levels does Moto X3M 2 have?",
         "answer": "Moto X3M 2 features 25 brand new levels with progressively increasing difficulty."
+      }
+    ]
+  },
+  {
+    "slug": "ragdoll-archers",
+    "title": "Ragdoll Archers",
+    "category": "action",
+    "description": "Ragdoll Archers is a hilarious physics-based archery game where stickmen battle with bows and arrows. Shoot arrows at enemies, collect power-ups, and upgrade your weapons in this addictive free browser game. Play unblocked online now!",
+    "embedUrl": "https://www.crazygames.com/embed/ragdoll-archers",
+    "thumbnail": "/thumbnails/ragdoll-archers.jpg",
+    "tags": ["archery", "physics", "stickman", "ragdoll", "2-player", "casual", "unblocked", "arena"],
+    "featured": true,
+    "howToPlay": "Use the mouse to aim and click to shoot arrows. In PvP mode, Player 1 uses WASD + Left Shift to jump, Player 2 uses Arrow Keys + Right Shift. Hit flying apples to restore health and stamina. Survive as long as possible!",
+    "tips": [
+      "Shoot flying apples to restore health (red), stamina (green), or both (golden)",
+      "Upgrade your damage and health first for the best early-game survival",
+      "Try different arrow types - electric, poison, and balloon arrows each have unique effects",
+      "In PvP mode, use the jump to dodge incoming arrows and gain a height advantage"
+    ],
+    "faq": [
+      {
+        "question": "Is Ragdoll Archers free to play?",
+        "answer": "Yes, Ragdoll Archers is completely free to play in your web browser. No download or registration required."
+      },
+      {
+        "question": "Can I play Ragdoll Archers with a friend?",
+        "answer": "Yes! Ragdoll Archers supports 2-player local PvP and co-op modes. Challenge your friend or team up to defeat enemies together."
+      },
+      {
+        "question": "What is the best arrow in Ragdoll Archers?",
+        "answer": "The 3-shot bow is one of the best early-game choices. As you unlock more arrows, experiment with electric and poison arrows for different strategies."
+      },
+      {
+        "question": "How do I survive longer in Ragdoll Archers?",
+        "answer": "Focus on hitting the flying apples to replenish your health and stamina. The golden apples restore both, so prioritize those when they appear."
+      },
+      {
+        "question": "Can I play Ragdoll Archers unblocked?",
+        "answer": "Yes! You can play Ragdoll Archers on PlayOnHub from any browser. No download needed - just click and play!"
       }
     ]
   }
