@@ -17,11 +17,11 @@ export async function generateMetadata({
   if (!post) return {};
 
   return {
-    title: post.title,
+    title: `${post.title} | PlayOnHub Guide`,
     description: post.excerpt,
     keywords: post.keywords,
     openGraph: {
-      title: post.title,
+      title: `${post.title} | PlayOnHub`,
       description: post.excerpt,
       type: "article",
       publishedTime: post.publishedAt,

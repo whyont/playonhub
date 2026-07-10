@@ -17,12 +17,16 @@ export async function generateMetadata({
   const game = getGameBySlug(slug);
   if (!game) return {};
 
+  const title = `Play ${game.title} Online Free — No Download | PlayOnHub`;
+  const description = `Play ${game.title} instantly in your browser. No download, no signup required. ${game.description}`;
+
   return {
-    title: `${game.title} - Play Free Online`,
-    description: game.description,
+    title,
+    description,
+    keywords: [...game.tags, "play online", "free", "browser game", "no download"],
     openGraph: {
-      title: `${game.title} - Play Free Online | PlayOnHub`,
-      description: game.description,
+      title: `${game.title} — Play Free Online | PlayOnHub`,
+      description,
       type: "website",
     },
   };
@@ -102,7 +106,6 @@ export default async function GamePage({
           src={game.embedUrl}
           title={game.title}
           allowFullScreen
-          loading="lazy"
         />
       </div>
 
