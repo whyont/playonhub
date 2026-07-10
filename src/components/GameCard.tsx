@@ -43,7 +43,7 @@ export default function GameCard({ game, size = "medium", rank }: GameCardProps)
           loading="lazy"
         />
         {rank !== undefined && (
-          <span className="game-card-rank">{rank}</span>
+          <span className="game-card-rank" data-rank={rank <= 3 ? rank : undefined}>{rank}</span>
         )}
       </div>
       <div className="game-card-body">
