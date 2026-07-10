@@ -51,6 +51,16 @@ export function getRelatedGames(game: Game, limit = 4): Game[] {
     .slice(0, limit);
 }
 
+export function getBlogPostsForGame(gameSlug: string): BlogPost[] {
+  return blogPosts.filter((p) => p.gameSlug === gameSlug);
+}
+
+export function getTop10Games(excludeSlug?: string): Game[] {
+  return games
+    .filter((g) => g.slug !== excludeSlug)
+    .slice(0, 10);
+}
+
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {
   return blogPosts.find((p) => p.slug === slug);
 }

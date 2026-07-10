@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { getAllCategories, games } from "@/lib/games";
-import { Gamepad2, Menu, X, Search } from "lucide-react";
+import { Menu, X, Search } from "lucide-react";
 
 export default function Header() {
   const pathname = usePathname();
@@ -33,7 +33,8 @@ export default function Header() {
       <div className="container site-header-inner">
         {/* Logo */}
         <Link href="/" className="site-logo">
-          <Gamepad2 size={26} className="site-logo-icon" strokeWidth={2.5} />
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/logo-sm.png" alt="PlayOnHub" className="site-logo-img" />
           <span className="site-logo-text">PlayOnHub</span>
         </Link>
 
@@ -160,9 +161,11 @@ export default function Header() {
           flex-shrink: 0;
         }
 
-        .site-logo-icon {
-          color: var(--color-secondary);
-          filter: drop-shadow(0 0 8px rgba(6, 182, 212, 0.5));
+        .site-logo-img {
+          width: 32px;
+          height: 32px;
+          object-fit: contain;
+          flex-shrink: 0;
         }
 
         .site-logo-text {
