@@ -655,5 +655,140 @@
         "answer": "Yes! You can play Ragdoll Archers on PlayOnHub from any browser. No download needed - just click and play!"
       }
     ]
+  },
+  {
+    "slug": "brainrot-arena-online",
+    "title": "Brainrot Arena Online",
+    "category": "action",
+    "description": "Brainrot Arena Online is a chaotic multiplayer .io arena game where you battle against other players in fast-paced combat. Collect power-ups, unlock crazy weapons, and dominate the leaderboard in this addictive free browser game. Play unblocked online now!",
+    "embedUrl": "https://www.crazygames.com/embed/brainrot-arena-online",
+    "thumbnail": "/thumbnails/brainrot-arena-online.jpg",
+    "tags": ["io", "multiplayer", "arena", "battle", "action", "unblocked"],
+    "featured": false,
+    "howToPlay": "Use WASD to move your character around the arena. Click to attack enemies with your weapon. Collect power-ups scattered across the map to gain temporary advantages. Eliminate other players to climb the leaderboard.",
+    "tips": [
+      "Grab power-ups immediately - they can turn the tide of battle",
+      "Keep moving to avoid being an easy target",
+      "Use the environment to your advantage - hide behind obstacles",
+      "Focus on weaker players first to build up your score quickly"
+    ],
+    "faq": [
+      {
+        "question": "Is Brainrot Arena Online free to play?",
+        "answer": "Yes, Brainrot Arena Online is completely free to play in your web browser. No download or registration required."
+      },
+      {
+        "question": "Can I play Brainrot Arena Online unblocked?",
+        "answer": "Yes, you can play Brainrot Arena Online on PlayOnHub from any browser. No download needed - just click and play!"
+      }
+    ]
+  },
+  {
+    "slug": "meeland-io",
+    "title": "Meeland.io",
+    "category": "io",
+    "description": "Meeland.io is a fun multiplayer .io game where you explore, build, and battle in a colorful world. Gather resources, craft items, and defend your base against other players in this addictive free browser game. Play unblocked online now!",
+    "embedUrl": "https://www.crazygames.com/embed/meeland-io",
+    "thumbnail": "/thumbnails/meeland-io.jpg",
+    "tags": ["io", "multiplayer", "survival", "building", "casual", "unblocked"],
+    "featured": false,
+    "howToPlay": "Use WASD to move around the map. Click to gather resources and attack enemies. Build structures to protect yourself. Upgrade your character to become stronger and survive longer.",
+    "tips": [
+      "Gather resources quickly in the early game to build a strong base",
+      "Team up with other players for better survival chances",
+      "Upgrade your weapons and armor as soon as possible",
+      "Keep an eye on the minimap to track enemy positions"
+    ],
+    "faq": [
+      {
+        "question": "Is Meeland.io free to play?",
+        "answer": "Yes, Meeland.io is completely free to play in your web browser. No download or registration required."
+      },
+      {
+        "question": "Can I play Meeland.io with friends?",
+        "answer": "Yes, Meeland.io supports multiplayer gameplay. You can team up with friends or battle against them in the same arena."
+      }
+    ]
+  },
+  {
+    "slug": "stickman-clash",
+    "title": "Stickman Clash",
+    "category": "action",
+    "description": "Stickman Clash is an intense stickman fighting game where you battle waves of enemies using martial arts and weapons. Perform combos, unlock new moves, and become the ultimate stickman warrior in this addictive free browser game. Play unblocked online now!",
+    "embedUrl": "https://www.crazygames.com/embed/stickman-clash",
+    "thumbnail": "/thumbnails/stickman-clash.jpg",
+    "tags": ["stickman", "fighting", "action", "combat", "casual", "unblocked"],
+    "featured": false,
+    "howToPlay": "Use WASD or arrow keys to move. Press attack buttons to perform punches, kicks, and special moves. Chain combos together for maximum damage. Defeat all enemies to advance to the next level.",
+    "tips": [
+      "Learn the combo system - chaining moves deals significantly more damage",
+      "Block enemy attacks by holding the block button at the right time",
+      "Use special moves sparingly - they have cooldowns but deal massive damage",
+      "Focus on one enemy at a time instead of spreading your attacks"
+    ],
+    "faq": [
+      {
+        "question": "Is Stickman Clash free to play?",
+        "answer": "Yes, Stickman Clash is completely free to play in your web browser. No download or registration required."
+      },
+      {
+        "question": "How many levels are in Stickman Clash?",
+        "answer": "Stickman Clash features multiple levels with increasing difficulty. New enemies and challenges are introduced as you progress."
+      }
+    ]
+  },
+  {
+    "slug": "slice-master",
+    "title": "Slice Master",
+    "category": "casual",
+    "description": "Slice Master is a satisfying slicing game where you cut through objects with precision. Time your slices perfectly, avoid obstacles, and rack up points in this addictive free browser game. Play unblocked online now!",
+    "embedUrl": "https://www.crazygames.com/embed/slice-master",
+    "thumbnail": "/thumbnails/slice-master.jpg",
+    "tags": ["casual", "slicing", "reflex", "arcade", "addictive", "unblocked"],
+    "featured": false,
+    "howToPlay": "Click and drag or swipe to slice objects. Time your cuts to avoid hitting obstacles. Slice as many objects as possible before time runs out. Aim for combos to maximize your score.",
+    "tips": [
+      "Wait for the right moment to slice - patience is key for high scores",
+      "Look for combo opportunities by slicing multiple objects in one cut",
+      "Avoid slicing bombs and obstacles - they will cost you points",
+      "Practice your timing - the game rewards precision over speed"
+    ],
+    "faq": [
+      {
+        "question": "Is Slice Master free to play?",
+        "answer": "Yes, Slice Master is completely free to play in your web browser. No download or registration required."
+      },
+      {
+        "question": "Can I play Slice Master on mobile?",
+        "answer": "Slice Master is optimized for desktop browsers but can be played on mobile devices with touch controls."
+      }
+    ]
+  },
+  {
+    "slug": "8-ball-billiards-classic",
+    "title": "8 Ball Billiards Classic",
+    "category": "sports",
+    "description": "8 Ball Billiards Classic is a realistic pool game where you can play against the computer or challenge a friend. Master your shots, aim with precision, and sink all your balls before your opponent in this classic free browser game. Play unblocked online now!",
+    "embedUrl": "https://www.crazygames.com/embed/8-ball-billiards-classic",
+    "thumbnail": "/thumbnails/8-ball-billiards-classic.jpg",
+    "tags": ["sports", "pool", "billiards", "2-player", "classic", "unblocked"],
+    "featured": false,
+    "howToPlay": "Aim with your mouse and click to shoot. Adjust the power of your shot by holding the click longer. Sink all your assigned balls (solids or stripes) and then the 8-ball to win. Avoid sinking the 8-ball early or you lose!",
+    "tips": [
+      "Plan your shots ahead - think about where the cue ball will end up",
+      "Use spin (english) to control the cue ball's path after contact",
+      "Break shots with medium power for the best ball spread",
+      "Focus on clearing your group before going for the 8-ball"
+    ],
+    "faq": [
+      {
+        "question": "Is 8 Ball Billiards Classic free to play?",
+        "answer": "Yes, 8 Ball Billiards Classic is completely free to play in your web browser. No download or registration required."
+      },
+      {
+        "question": "Can I play 8 Ball Billiards Classic with a friend?",
+        "answer": "Yes, 8 Ball Billiards Classic supports local 2-player mode. Take turns on the same computer and challenge your friend!"
+      }
+    ]
   }
 ]
