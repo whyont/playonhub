@@ -48,11 +48,13 @@ export default function GameCard({ game, size = "medium", rank }: GameCardProps)
       </div>
       <div className="game-card-body">
         <span className="game-card-title-text">{game.title}</span>
-        <span className="game-card-desc-short">
-          {size === "large"
-            ? game.description.slice(0, 90).trim() + "..."
-            : game.description.slice(0, 55).trim() + "..."}
-        </span>
+        {size !== "small" && (
+          <span className="game-card-desc-short">
+            {size === "large"
+              ? game.description.slice(0, 80).trim() + "..."
+              : game.description.slice(0, 50).trim() + "..."}
+          </span>
+        )}
       </div>
     </Link>
   );
