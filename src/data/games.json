@@ -67,28 +67,32 @@
   },
   {
     "slug": "level-devil",
-    "title": "Level Devil",
+    "title": "Vex 7",
     "category": "platformer",
-    "description": "Level Devil is a challenging platformer game that will test your reflexes and patience. Navigate through increasingly difficult levels filled with traps, obstacles, and surprises. Each level brings a new twist to keep you on your toes.",
-    "embedUrl": "https://www.crazygames.com/embed/level-devil",
+    "description": "Play Vex 7 free online! The latest installment of the legendary stickman platformer series. Run, jump, slide, and swim through deadly obstacle courses filled with traps and hazards. No download required!",
+    "embedUrl": "https://www.crazygames.com/embed/vex-7",
     "thumbnail": "/thumbnails/level-devil.jpg",
-    "tags": ["platformer", "puzzle", "hard", "casual"],
+    "tags": ["platformer", "stickman", "obstacle", "action", "running", "unblocked", "2d"],
     "featured": false,
-    "howToPlay": "Use arrow keys or WASD to move and jump. Avoid traps and reach the end of each level. Watch out for unexpected obstacles!",
+    "howToPlay": "Use WASD or arrow keys to move, jump, and slide. Swim through water sections and wall-jump to reach higher platforms. Avoid spikes, saws, and other deadly traps to reach the finish!",
     "tips": [
-      "Take your time - rushing leads to mistakes",
-      "Learn from each death - traps are predictable once you know them",
-      "Some platforms may disappear or move - stay alert",
-      "Practice makes perfect - retry levels until you memorize the pattern"
+      "Wall-jumping is essential - press jump while sliding against a wall to rebound",
+      "Swim efficiently by tapping the up key instead of holding it",
+      "Look ahead to plan your route through obstacle sections",
+      "Use the slide move to pass under low barriers quickly"
     ],
     "faq": [
       {
-        "question": "How many levels are in Level Devil?",
-        "answer": "Level Devil features multiple levels with increasing difficulty. New levels may be added in updates."
+        "question": "Is Vex 7 free to play?",
+        "answer": "Yes, Vex 7 is completely free to play in your web browser. No download or registration required."
       },
       {
-        "question": "Is Level Devil unblocked at school?",
-        "answer": "You can play Level Devil on PlayOnHub from any browser. Check your school's internet policy for access."
+        "question": "Can I play Vex 7 unblocked at school?",
+        "answer": "Yes! You can play Vex 7 on PlayOnHub from any browser. Check your school's internet policy for access."
+      },
+      {
+        "question": "How is Vex 7 different from previous Vex games?",
+        "answer": "Vex 7 features new obstacle types, improved parkour mechanics, and fresh level designs while maintaining the classic stickman platformer gameplay."
       }
     ]
   },
@@ -443,10 +447,10 @@
     "slug": "paper-io-2",
     "title": "Paper.io 2",
     "category": "io",
-    "description": "Paper.io 2 is a strategic territory conquest game. Draw lines to claim territory, but don't let anyone cross your trail before you complete it. Expand your domain and eliminate opponents!",
+    "description": "Play Paper.io 2 free online! Draw lines to claim territory and eliminate opponents in this addictive strategy game. Expand your domain while protecting your trail. No download required!",
     "embedUrl": "https://www.crazygames.com/embed/paper-io-2",
     "thumbnail": "/thumbnails/paper-io-2.jpg",
-    "tags": ["io", "multiplayer", "strategy", "casual", "2d"],
+    "tags": ["io", "multiplayer", "strategy", "casual", "2d", "unblocked", "territory"],
     "featured": false,
     "howToPlay": "Move with arrow keys or swipe. Leave your territory to draw a trail, then return to claim the enclosed area. Don't let enemies touch your trail!",
     "tips": [
@@ -459,6 +463,14 @@
       {
         "question": "How do I win in Paper.io 2?",
         "answer": "Claim the most territory by drawing trails and returning safely. Eliminate opponents by crossing their trails."
+      },
+      {
+        "question": "Is Paper.io 2 free to play?",
+        "answer": "Yes, Paper.io 2 is completely free to play in your web browser. No download or registration required."
+      },
+      {
+        "question": "Can I play Paper.io 2 unblocked?",
+        "answer": "Yes! You can play Paper.io 2 on PlayOnHub from any browser. No download needed - just click and play!"
       }
     ]
   },

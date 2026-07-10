@@ -1,30 +1,13 @@
 import {
   getFeaturedGames,
   games,
-  getAllCategories,
-  getGamesByCategory,
   blogPosts,
 } from "@/lib/games";
 import GameCard from "@/components/GameCard";
 import Link from "next/link";
 
-/* Categories to show as sections, in order */
-const CATEGORY_SECTIONS = ["io", "driving", "puzzle", "action", "casual"];
-
-const CATEGORY_COLORS: Record<string, string> = {
-  io: "#60a5fa",
-  driving: "#fb923c",
-  puzzle: "#a78bfa",
-  action: "#f472b6",
-  casual: "#34d399",
-  platformer: "#fbbf24",
-  arcade: "#22d3ee",
-  sports: "#fb7185",
-};
-
 export default function HomePage() {
   const featured = getFeaturedGames();
-  const categories = getAllCategories();
   const recentBlog = blogPosts.slice(0, 3);
 
   /* Top 10 = first 10 games by array order (popular ones first) */
@@ -32,6 +15,13 @@ export default function HomePage() {
 
   /* New games = last 4 added */
   const newGames = games.slice(-4).reverse();
+
+  /* All games excluding featured and new (to avoid duplicates) */
+  const featuredSlugs = new Set(featured.map((g) => g.slug));
+  const newSlugs = new Set(newGames.map((g) => g.slug));
+  const allOtherGames = games.filter(
+    (g) => !featuredSlugs.has(g.slug) && !newSlugs.has(g.slug)
+  );
 
   return (
     <div className="homepage">
@@ -71,15 +61,14 @@ export default function HomePage() {
             View All &rarr;
           </Link>
         </div>
-        <div className="top10-scroll">
-          {top10.map((game, i) => (
-            <div
-              key={game.slug}
-              style={{ minWidth: "180px", maxWidth: "180px" }}
-            >
-              <GameCard game={game} size="small" rank={i + 1} />
-            </div>
-          ))}
+        <div className="top10-scroll-wrapper">
+          <div className="top10-scroll">
+            {top10.map((game, i) => (
+              <div key={game.slug} className="top10-item">
+                <GameCard game={game} size="small" rank={i + 1} />
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -97,37 +86,22 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ===== CATEGORY SECTIONS ===== */}
-      {CATEGORY_SECTIONS.map((catSlug) => {
-        const catGames = getGamesByCategory(catSlug);
-        const catInfo = categories.find((c) => c.slug === catSlug);
-        const color = CATEGORY_COLORS[catSlug] || "#60a5fa";
-        if (catGames.length === 0) return null;
-
-        return (
-          <section key={catSlug} className="home-section">
-            <div className="section-header">
-              <h2 className="section-title">
-                <span style={{ color }}>
-                  {catInfo?.name || catSlug}
-                </span>{" "}
-                Games
-              </h2>
-              <Link
-                href={`/category/${catSlug}`}
-                className="section-link"
-              >
-                See All &rarr;
-              </Link>
-            </div>
-            <div className="category-section-grid">
-              {catGames.slice(0, 6).map((game) => (
-                <GameCard key={game.slug} game={game} size="medium" />
-              ))}
-            </div>
-          </section>
-        );
-      })}
+      {/* ===== ALL GAMES ===== */}
+      <section className="home-section">
+        <div className="section-header">
+          <h2 className="section-title">
+            <span className="section-title-accent">All</span> Games
+          </h2>
+          <Link href="/games" className="section-link">
+            View All &rarr;
+          </Link>
+        </div>
+        <div className="all-games-grid">
+          {allOtherGames.map((game) => (
+            <GameCard key={game.slug} game={game} size="medium" />
+          ))}
+        </div>
+      </section>
 
       {/* ===== LATEST ARTICLES ===== */}
       <section className="home-section">
