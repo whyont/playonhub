@@ -38,10 +38,10 @@
     "slug": "krunker-io",
     "title": "Krunker.io",
     "category": "io",
-    "description": "Krunker.io is the most popular blocky FPS browser game. With its fast-paced gameplay, pixelated graphics, and huge community, you'll battle players worldwide across multiple maps and game modes. The ultimate browser shooter experience.",
+    "description": "Krunker.io is the most popular blocky FPS browser game. Battle players worldwide across multiple maps and game modes. Fast-paced, free to play online with no download required!",
     "embedUrl": "https://www.crazygames.com/embed/krunker-io",
     "thumbnail": "/thumbnails/krunker-io.jpg",
-    "tags": ["fps", "multiplayer", "shooting", "io", "3d"],
+    "tags": ["fps", "multiplayer", "shooting", "io", "3d", "unblocked", "online", "free", "browser"],
     "featured": false,
     "howToPlay": "Use WASD to move, mouse to aim and shoot, Shift to crouch, and Space to jump. Click to fire your weapon. Eliminate enemies to score points and climb the leaderboard.",
     "tips": [
@@ -100,10 +100,10 @@
     "slug": "escape-road",
     "title": "Escape Road",
     "category": "driving",
-    "description": "Escape Road is an exciting driving game where you must escape from pursuing police cars. Navigate through city streets, avoid obstacles, and survive as long as possible while the heat intensifies.",
+    "description": "Escape Road is a thrilling police chase driving game. Navigate city streets, avoid obstacles, and survive as long as possible. Play free online unblocked with no download required!",
     "embedUrl": "https://www.crazygames.com/embed/escape-road-asm",
     "thumbnail": "/thumbnails/escape-road.jpg",
-    "tags": ["driving", "car", "chase", "3d", "casual"],
+    "tags": ["driving", "car", "chase", "3d", "casual", "police", "unblocked", "online", "free", "escape"],
     "featured": false,
     "howToPlay": "Use arrow keys or WASD to steer your car. Avoid police cars and obstacles. Collect power-ups to help you escape. Survive as long as possible!",
     "tips": [
@@ -370,10 +370,10 @@
     "slug": "kirka-io",
     "title": "Kirka.io",
     "category": "io",
-    "description": "Kirka.io is a fast-paced pixelated multiplayer FPS. Battle players online across various maps with different weapons and game modes. The retro pixel art style combined with smooth FPS action makes it unique.",
+    "description": "Kirka.io is a fast-paced pixelated multiplayer FPS. Battle players across various maps with different weapons and game modes. Free to play online, no download required!",
     "embedUrl": "https://www.crazygames.com/embed/kirka-io",
     "thumbnail": "/thumbnails/kirka-io.jpg",
-    "tags": ["fps", "multiplayer", "shooting", "io", "pixel"],
+    "tags": ["fps", "multiplayer", "shooting", "io", "pixel", "unblocked", "online", "free", "browser"],
     "featured": false,
     "howToPlay": "Use WASD to move, mouse to aim and shoot. Select your weapon and game mode. Eliminate enemies to earn XP and unlock new weapons.",
     "tips": [
@@ -788,6 +788,41 @@
       {
         "question": "Can I play 8 Ball Billiards Classic with a friend?",
         "answer": "Yes, 8 Ball Billiards Classic supports local 2-player mode. Take turns on the same computer and challenge your friend!"
+      }
+    ]
+  },
+  {
+    "slug": "tunnel-rush",
+    "title": "Tunnel Rush",
+    "category": "casual",
+    "description": "Play Tunnel Rush free online! Test your reflexes in this fast-paced 3D tunnel runner. Dodge colorful obstacles at blazing speed as you race through an endless neon tunnel. No download required - play unblocked now!",
+    "embedUrl": "https://www.crazygames.com/embed/tunnel-rush",
+    "thumbnail": "/thumbnails/tunnel-rush.jpg",
+    "tags": ["arcade", "reflex", "3d", "endless", "runner", "casual", "unblocked", "speed", "tunnel"],
+    "featured": false,
+    "howToPlay": "Use the left and right arrow keys (or A/D) to steer through the tunnel. Dodge red and colored obstacles by moving to the gaps. The speed increases over time, so stay focused!",
+    "tips": [
+      "Stay centered to have maximum room to dodge in either direction",
+      "Look far ahead to spot obstacles early - don't just react to what's close",
+      "Make smooth, small movements rather than jerky large ones",
+      "Memorize obstacle patterns - some sections repeat frequently"
+    ],
+    "faq": [
+      {
+        "question": "Is Tunnel Rush free to play?",
+        "answer": "Yes, Tunnel Rush is completely free to play on PlayOnHub in your web browser. No download or registration required."
+      },
+      {
+        "question": "Can I play Tunnel Rush unblocked at school?",
+        "answer": "Yes! You can play Tunnel Rush on PlayOnHub from any browser. No download needed - just click and play!"
+      },
+      {
+        "question": "How do I get a high score in Tunnel Rush?",
+        "answer": "Practice makes perfect. Focus on staying centered, looking ahead for obstacles, and making smooth movements. The more you play, the better your reflexes will become."
+      },
+      {
+        "question": "Does Tunnel Rush get faster over time?",
+        "answer": "Yes, the tunnel speed gradually increases as you survive longer, making the game progressively more challenging."
       }
     ]
   }
