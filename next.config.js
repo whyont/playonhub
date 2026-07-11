@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   turbopack: {
-    root: __dirname,
+    root: "/workspace/playonhub",
   },
 };
 

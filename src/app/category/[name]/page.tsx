@@ -38,13 +38,6 @@ export default async function CategoryPage({
 
   return (
     <div className="category-page">
-      {/* Breadcrumb */}
-      <nav className="breadcrumb">
-        <Link href="/">Home</Link>
-        <span aria-hidden="true">/</span>
-        <span>{catName} Games</span>
-      </nav>
-
       {/* Category Header */}
       <header className="category-header">
         <span className="category-header-eyebrow">Category</span>
@@ -72,9 +65,9 @@ export default async function CategoryPage({
       </div>
 
       {/* Games Grid */}
-      <div className="grid-games">
+      <div className="category-games-grid">
         {catGames.map((game) => (
-          <GameCard key={game.slug} game={game} />
+          <GameCard key={game.slug} game={game} size="medium" />
         ))}
       </div>
 
@@ -166,9 +159,40 @@ export default async function CategoryPage({
           background: rgba(255, 255, 255, 0.25);
         }
 
+        /* Games grid - responsive with proper gaps */
+        .category-games-grid {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 1rem;
+          padding-bottom: 2rem;
+        }
+
+        @media (min-width: 480px) {
+          .category-games-grid {
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.25rem;
+          }
+        }
+
+        @media (min-width: 768px) {
+          .category-games-grid {
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1.5rem;
+          }
+        }
+
+        @media (min-width: 1024px) {
+          .category-games-grid {
+            grid-template-columns: repeat(5, 1fr);
+          }
+        }
+
         @media (max-width: 768px) {
           .category-header {
             padding: 1rem 0 1.5rem;
+          }
+          .category-games-grid {
+            gap: 0.85rem;
           }
         }
       `}</style>
