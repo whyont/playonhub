@@ -825,5 +825,46 @@
         "answer": "Yes, the tunnel speed gradually increases as you survive longer, making the game progressively more challenging."
       }
     ]
+  },
+  {
+    "slug": "mr-dude-online-multiverse-challenge",
+    "title": "Mr. Dude: Online Multiverse Challenge",
+    "category": "action",
+    "description": "Play Mr. Dude: Online Multiverse Challenge free online! A hilarious multiplayer party game with wacky game modes including disco floors, dangerous bridges, lava escapes, and horror movie survival. Play with friends or players worldwide. No download required!",
+    "embedUrl": "https://www.crazygames.com/embed/mr-dude-online-multiverse-challenge",
+    "thumbnail": "/thumbnails/mr-dude-online-multiverse-challenge.jpg",
+    "tags": ["action", "multiplayer", "party", "casual", "3d", "ragdoll", "survival", "unblocked", "online", "free", "browser"],
+    "featured": true,
+    "howToPlay": "Use WASD to move, Space to jump, 1-4 for boosters, Tab to pause, and E to interact with items in panic room mode. Choose a game mode and wait for other players to join. Survive each challenge to win!",
+    "tips": [
+      "In Disco mode, watch the floor colors carefully and move to safe tiles before they disappear",
+      "In Dangerous Bridge mode, take your time with jumps - rushing leads to falling",
+      "In Hell mode, plan your route across lava slabs before jumping",
+      "In Horror Movie mode, find the key quickly within 10 seconds before the villain starts chasing",
+      "Claim your daily rewards and spin the Wheel of Fortune for coins and power-ups",
+      "Use private rooms to play with friends and family for the best experience"
+    ],
+    "faq": [
+      {
+        "question": "Is Mr. Dude: Online Multiverse Challenge free to play?",
+        "answer": "Yes, Mr. Dude is completely free to play in your web browser on PlayOnHub. No download or registration required."
+      },
+      {
+        "question": "Can I play Mr. Dude with friends?",
+        "answer": "Absolutely! Mr. Dude supports private rooms so you can play exclusively with your friends and family."
+      },
+      {
+        "question": "What game modes are in Mr. Dude?",
+        "answer": "Mr. Dude features multiple modes: Disco (colored floor survival), Dangerous Bridge (precision jumping), Hell (lava escape), Horror Movie (key hunt with chase), and Random (any of the above)."
+      },
+      {
+        "question": "How do I control Mr. Dude?",
+        "answer": "Use WASD to move, Space to jump, 1-4 for boosters, Tab to pause, and E to interact with objects in certain modes."
+      },
+      {
+        "question": "Can I play Mr. Dude unblocked at school?",
+        "answer": "Yes! You can play Mr. Dude on PlayOnHub from any browser. No download needed - just click and play!"
+      }
+    ]
   }
 ]
