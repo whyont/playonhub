@@ -120,6 +120,14 @@
       {
         "question": "Are there different cars in Escape Road?",
         "answer": "You can unlock different vehicles with unique handling characteristics as you progress."
+      },
+      {
+        "question": "Is Escape Road free to play?",
+        "answer": "Yes, Escape Road is completely free to play on PlayOnHub. No download or registration required."
+      },
+      {
+        "question": "Can I play Escape Road unblocked?",
+        "answer": "Yes! You can play Escape Road on PlayOnHub from any browser. No download needed - just click and play!"
       }
     ]
   },
@@ -343,10 +351,10 @@
     "slug": "hangman",
     "title": "Hangman",
     "category": "puzzle",
-    "description": "Hangman is the classic word guessing game reimagined for the browser. Guess letters to reveal the hidden word before the stick figure is complete. With thousands of words across multiple categories, it's perfect for vocabulary building and quick brain teasers.",
+    "description": "Play Hangman free online! The classic word guessing game with thousands of words across multiple categories. Guess letters to reveal the hidden word before time runs out. No download required!",
     "embedUrl": "https://www.crazygames.com/embed/hangman",
     "thumbnail": "/thumbnails/hangman.jpg",
-    "tags": ["word", "puzzle", "casual", "educational"],
+    "tags": ["word", "puzzle", "casual", "educational", "unblocked", "free", "online", "brain", "vocabulary"],
     "featured": false,
     "howToPlay": "Guess letters by clicking them or typing on your keyboard. Each wrong guess adds a body part to the hangman. Reveal the full word before the figure is complete to win!",
     "tips": [
@@ -687,10 +695,10 @@
     "slug": "meeland-io",
     "title": "Meeland.io",
     "category": "io",
-    "description": "Meeland.io is a fun multiplayer .io game where you explore, build, and battle in a colorful world. Gather resources, craft items, and defend your base against other players in this addictive free browser game. Play unblocked online now!",
+    "description": "Play Meeland.io free online! A fun multiplayer .io game where you explore, build, and battle in a colorful world. Gather resources, craft items, and defend your base. No download required!",
     "embedUrl": "https://www.crazygames.com/embed/meeland-io",
     "thumbnail": "/thumbnails/meeland-io.jpg",
-    "tags": ["io", "multiplayer", "survival", "building", "casual", "unblocked"],
+    "tags": ["io", "multiplayer", "survival", "building", "casual", "unblocked", "free", "online", "sandbox", "craft"],
     "featured": false,
     "howToPlay": "Use WASD to move around the map. Click to gather resources and attack enemies. Build structures to protect yourself. Upgrade your character to become stronger and survive longer.",
     "tips": [
