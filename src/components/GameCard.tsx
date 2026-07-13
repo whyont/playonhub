@@ -69,26 +69,26 @@ export default function GameCard({ game, size = "medium", rank, onPlay }: GameCa
               {rank}
             </span>
           )}
-          {/* Play Now overlay */}
-          {onPlay && (
-            <div
-              className="game-card-play-overlay"
-              style={{ opacity: showPlay ? 1 : 0 }}
-            >
-              <button
-                className="game-card-play-btn"
-                onClick={(e) => {
-                  e.preventDefault();
-                  e.stopPropagation();
-                  onPlay(game);
-                }}
-              >
-                <Play size={20} fill="currentColor" />
-                <span>Play Now</span>
-              </button>
-            </div>
-          )}
         </div>
+        {/* Play Now overlay — outside thumb to avoid overflow:hidden clipping */}
+        {onPlay && (
+          <div
+            className="game-card-play-overlay"
+            style={{ opacity: showPlay ? 1 : 0 }}
+          >
+            <button
+              className="game-card-play-btn"
+              onClick={(e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                onPlay(game);
+              }}
+            >
+              <Play size={20} fill="currentColor" />
+              <span>Play Now</span>
+            </button>
+          </div>
+        )}
         <div className="game-card-body">
           <span className="game-card-title-text">{game.title}</span>
           {size !== "small" && (
@@ -125,39 +125,43 @@ export default function GameCard({ game, size = "medium", rank, onPlay }: GameCa
           text-decoration: none;
           color: inherit;
         }
+        /* Play overlay — outside the thumb container to avoid overflow clipping */
         .game-card-play-overlay {
           position: absolute;
           inset: 0;
-          background: rgba(0,0,0,0.5);
+          background: rgba(0,0,0,0.55);
           display: flex;
           align-items: center;
           justify-content: center;
-          transition: opacity 0.25s ease;
+          transition: opacity 0.2s ease;
           border-radius: var(--radius-md) var(--radius-md) 0 0;
+          z-index: 2;
+          overflow: hidden;
         }
         .game-card-play-btn {
           display: flex;
           align-items: center;
-          gap: 0.4rem;
+          gap: 0.5rem;
           background: linear-gradient(135deg, var(--color-yellow), var(--color-orange));
           color: #1a1a2e;
           font-family: "Outfit", sans-serif;
-          font-size: 0.85rem;
+          font-size: 0.9rem;
           font-weight: 800;
-          padding: 0.6rem 1.2rem;
+          padding: 0.65rem 1.4rem;
           border-radius: var(--radius-pill);
           border: none;
           cursor: pointer;
-          box-shadow: 0 4px 16px rgba(251, 191, 36, 0.35);
-          transform: scale(0.9);
-          transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+          box-shadow: 0 4px 20px rgba(251, 191, 36, 0.4);
+          white-space: nowrap;
+          transform: translateY(8px);
+          transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.2s;
         }
         .game-card:hover .game-card-play-btn {
-          transform: scale(1);
+          transform: translateY(0);
         }
         .game-card-play-btn:hover {
-          transform: scale(1.05);
-          box-shadow: 0 6px 24px rgba(251, 191, 36, 0.5);
+          box-shadow: 0 6px 28px rgba(251, 191, 36, 0.55);
+          filter: brightness(1.05);
         }
         .game-card-fav {
           position: absolute;
@@ -166,31 +170,31 @@ export default function GameCard({ game, size = "medium", rank, onPlay }: GameCa
           width: 32px;
           height: 32px;
           border-radius: 50%;
-          background: rgba(0,0,0,0.4);
-          border: 1px solid rgba(255,255,255,0.1);
+          background: rgba(0,0,0,0.45);
+          border: 1px solid rgba(255,255,255,0.15);
           color: var(--color-muted);
           display: flex;
           align-items: center;
           justify-content: center;
           cursor: pointer;
           transition: all 0.2s ease;
-          z-index: 3;
+          z-index: 5;
           opacity: 0;
         }
         .game-card:hover .game-card-fav {
           opacity: 1;
         }
         .game-card-fav:hover {
-          background: rgba(236, 72, 153, 0.25);
-          border-color: rgba(236, 72, 153, 0.5);
+          background: rgba(236, 72, 153, 0.3);
+          border-color: rgba(236, 72, 153, 0.6);
           color: var(--color-pink);
-          transform: scale(1.1);
+          transform: scale(1.15);
         }
         .game-card-fav.favorited {
           opacity: 1;
           color: var(--color-pink);
-          background: rgba(236, 72, 153, 0.2);
-          border-color: rgba(236, 72, 153, 0.4);
+          background: rgba(236, 72, 153, 0.25);
+          border-color: rgba(236, 72, 153, 0.5);
         }
         @media (max-width: 640px) {
           .game-card-fav {
