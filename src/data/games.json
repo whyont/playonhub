@@ -911,5 +911,50 @@
         "answer": "Yes! You can play Kour.io on PlayOnHub from any browser. No download needed - just click and play!"
       }
     ]
+  },
+  {
+    "slug": "evowars-io",
+    "title": "EvoWars.io",
+    "category": "io",
+    "description": "Play EvoWars.io free online! A thrilling multiplayer battle arena where you collect orbs, slay enemies, and evolve your warrior through 36 evolution stages. Start small and grow into an unstoppable force. No download required!",
+    "embedUrl": "https://www.crazygames.com/embed/evowarsio",
+    "thumbnail": "/thumbnails/evowars-io.jpg",
+    "tags": ["io", "multiplayer", "battle", "evolution", "survival", "grow", "top-down", "unblocked", "online", "free", "browser", "arena"],
+    "featured": true,
+    "howToPlay": "Move your mouse to control your warrior, left-click to attack, and right-click or Shift to sprint. Collect orbs scattered around the map to gain XP and evolve. Each evolution increases your weapon range and damage but makes you slower. Eliminate other players to steal their XP and climb the leaderboard.",
+    "tips": [
+      "Stay on the map edges at low levels - collect orbs safely before fighting",
+      "Smaller evolutions move faster - use speed to dodge bigger players' attacks",
+      "Sprint (Right-click/Shift) costs XP, so only use it when escaping or chasing",
+      "In Teams mode, protect your Guardian while coordinating attacks on the enemy Guardian",
+      "Target players who are distracted fighting others for easy eliminations",
+      "Evolve quickly in Monster Hunt mode before switching to competitive modes"
+    ],
+    "faq": [
+      {
+        "question": "How many evolutions are in EvoWars.io?",
+        "answer": "EvoWars.io features 36 evolutions plus 2 secret evolutions. Each evolution makes your warrior larger and more powerful with bigger weapons and increased attack range."
+      },
+      {
+        "question": "Is EvoWars.io free to play?",
+        "answer": "Yes, EvoWars.io is completely free to play in your web browser. No download or registration required."
+      },
+      {
+        "question": "What game modes does EvoWars.io have?",
+        "answer": "EvoWars.io offers Deathmatch (Free For All), Teams (Guardian defense), Duel (1v1 best of 3), Monster Hunt (co-op vs AI), and Classic mode."
+      },
+      {
+        "question": "How do I get bigger in EvoWars.io?",
+        "answer": "Collect orbs around the map and eliminate other players to gain XP. When you have enough XP, you automatically evolve into a larger, stronger warrior with better weapons."
+      },
+      {
+        "question": "Can I play EvoWars.io with friends?",
+        "answer": "Yes! Join Teams mode to play cooperatively or create private matches to play with friends."
+      },
+      {
+        "question": "Can I play EvoWars.io unblocked?",
+        "answer": "Yes! You can play EvoWars.io on PlayOnHub from any browser. No download needed - just click and play!"
+      }
+    ]
   }
 ]
