@@ -8,6 +8,13 @@ interface GameCardProps {
   rank?: number;
 }
 
+function getRankClass(rank: number): string {
+  if (rank === 1) return "rank-gold";
+  if (rank === 2) return "rank-silver";
+  if (rank === 3) return "rank-bronze";
+  return "rank-default";
+}
+
 export default function GameCard({ game, size = "medium", rank }: GameCardProps) {
   const thumbnail = getGameThumbnail(game);
 
@@ -32,6 +39,7 @@ export default function GameCard({ game, size = "medium", rank }: GameCardProps)
   }
 
   const aspectClass = size === "large" ? "game-card-thumb-lg" : size === "small" ? "game-card-thumb-sm" : "game-card-thumb-md";
+  const rankClass = rank !== undefined ? getRankClass(rank) : "";
 
   return (
     <Link href={`/games/${game.slug}`} className={`game-card game-card-${size}`}>
@@ -43,7 +51,9 @@ export default function GameCard({ game, size = "medium", rank }: GameCardProps)
           loading="lazy"
         />
         {rank !== undefined && (
-          <span className="game-card-rank" data-rank={rank <= 3 ? rank : undefined}>{rank}</span>
+          <span className={`game-card-rank ${rankClass}`}>
+            {rank}
+          </span>
         )}
       </div>
       <div className="game-card-body">
