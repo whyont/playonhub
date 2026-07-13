@@ -866,5 +866,50 @@
         "answer": "Yes! You can play Mr. Dude on PlayOnHub from any browser. No download needed - just click and play!"
       }
     ]
+  },
+  {
+    "slug": "kour-io",
+    "title": "Kour.io",
+    "category": "io",
+    "description": "Play Kour.io free online! A fast-paced multiplayer FPS .io game with 9 unique character classes, multiple maps, and 7+ game modes. Battle players worldwide, unlock skins, and climb the leaderboards. No download required!",
+    "embedUrl": "https://www.crazygames.com/embed/kour-io",
+    "thumbnail": "/thumbnails/kour-io.jpg",
+    "tags": ["fps", "io", "multiplayer", "shooting", "3d", "competitive", "unblocked", "online", "free", "browser", "arena"],
+    "featured": true,
+    "howToPlay": "Use WASD to move, mouse to aim, left-click to shoot, right-click to aim down sights, Space to jump, Shift/C to crouch, E to dash, and 1-2-3 to switch weapons. Choose your character class and enter a match. Earn KP by eliminating enemies and completing missions to unlock skins, characters, and emotes.",
+    "tips": [
+      "Use the green laser zones on maps for speed boosts during firefights",
+      "Choose the Heavy class (150 HP) for beginners - high survivability lets you learn map layouts",
+      "The Hitman's sniper rifle is devastating on open maps like Ghost Town - use elevation for advantage",
+      "In Team Deathmatch, stick with teammates and use cover to trade kills effectively",
+      "Unlock the Juggernaut (Minigun) by getting 10+ kills in a single match for massive firepower",
+      "Use the dash ability (E) to dodge shots and close distance quickly in close-range fights"
+    ],
+    "faq": [
+      {
+        "question": "Is Kour.io free to play?",
+        "answer": "Yes, Kour.io is completely free to play in your web browser. No download or registration required."
+      },
+      {
+        "question": "What characters are in Kour.io?",
+        "answer": "Kour.io features 9 base characters including Soldier (AK-47), Hitman (Sniper), Gunner (P90), Heavy (Machine Gun), Rocketeer (Rocket Launcher), Agent (Silenced MP5), Brawler (Shotgun), Assassin (FAMAS), and Investor (Scar). Get 10+ kills to unlock Juggernaut, Recon, Pyro, and Rayblader."
+      },
+      {
+        "question": "What game modes does Kour.io have?",
+        "answer": "Kour.io offers Free For All, Team Deathmatch, Gun Game, Hardpoint, ParKour (parkour + shooting), MoonSnipe (low gravity), and KourSurf (surf + shooting). Community modes include KourCraft, FFA 35, and Pool Map."
+      },
+      {
+        "question": "How do I move fast in Kour.io?",
+        "answer": "Look for green laser zones on maps - walking through them gives you a speed boost. You can also use the dash ability (E key) for quick bursts of speed."
+      },
+      {
+        "question": "Can I play Kour.io with friends?",
+        "answer": "Yes! Create or join clans to team up with friends. You can also use the server finder to join specific lobbies together."
+      },
+      {
+        "question": "Can I play Kour.io unblocked?",
+        "answer": "Yes! You can play Kour.io on PlayOnHub from any browser. No download needed - just click and play!"
+      }
+    ]
   }
 ]
