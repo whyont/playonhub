@@ -964,5 +964,44 @@
         "answer": "Yes! You can play EvoWars.io on PlayOnHub from any browser. No download needed - just click and play!"
       }
     ]
+  },
+  {
+    "slug": "snow-rider-3d",
+    "title": "Snow Rider 3D",
+    "category": "casual",
+    "description": "Play Snow Rider 3D free online! Race down a snowy mountain on a sled, dodge obstacles like trees and rocks, and collect gifts along the way. A thrilling 3D winter sledding game with no download required!",
+    "embedUrl": "https://www.crazygames.com/embed/snow-rider-3d",
+    "thumbnail": "/thumbnails/snow-rider-3d.jpg",
+    "tags": ["snow", "winter", "sled", "3d", "runner", "obstacle", "casual", "unblocked", "online", "free", "endless"],
+    "featured": true,
+    "howToPlay": "Use A/D or left/right arrow keys to steer your sled. Dodge trees, rocks, and other obstacles on the slope. Collect gifts scattered along the path for bonus points. The slope gets steeper and faster as you progress!",
+    "tips": [
+      "Stay in the center of the track for the most room to dodge obstacles",
+      "Look ahead to anticipate upcoming trees and rocks - don't just react to what's in front of you",
+      "Use gentle movements to steer - sharp turns can cause you to crash",
+      "Collect as many gifts as possible for bonus points, but don't risk crashing for them"
+    ],
+    "faq": [
+      {
+        "question": "Is Snow Rider 3D free to play?",
+        "answer": "Yes, Snow Rider 3D is completely free to play in your web browser. No download or registration required."
+      },
+      {
+        "question": "Can I play Snow Rider 3D unblocked at school?",
+        "answer": "Yes! You can play Snow Rider 3D on PlayOnHub from any browser. No download needed - just click and play!"
+      },
+      {
+        "question": "How do I control the sled in Snow Rider 3D?",
+        "answer": "Use the left and right arrow keys (or A/D) to steer your sled left and right. Avoid obstacles and collect gifts for bonus points."
+      },
+      {
+        "question": "How do I get a high score in Snow Rider 3D?",
+        "answer": "Survive as long as possible while collecting gifts. Stay centered on the track, look ahead for obstacles, and make smooth steering adjustments."
+      },
+      {
+        "question": "What happens when I hit an obstacle?",
+        "answer": "Hitting a tree, rock, or other obstacle will end your run. Your score is based on how far you traveled and how many gifts you collected."
+      }
+    ]
   }
 ]
