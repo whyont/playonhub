@@ -5,11 +5,11 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: {
-    default: "Play 20+ Free Online Games — No Download | PlayOnHub",
+    default: "Play 35+ Free Online Games — No Download | PlayOnHub",
     template: "%s | PlayOnHub",
   },
   description:
-    "Play 20+ free online games instantly in your browser. No download, no signup required. IO games, FPS, racing, puzzles and more on PlayOnHub.",
+    "Play 35+ free online games instantly in your browser. No download, no signup required. IO games, FPS, racing, puzzles and more on PlayOnHub.",
   keywords: [
     "free online games",
     "browser games",

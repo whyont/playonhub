@@ -3,9 +3,9 @@ import GameCard from "@/components/GameCard";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Browse All Games — Play 31+ Free Online Games | PlayOnHub",
+  title: "Browse All Games — Play 35+ Free Online Games | PlayOnHub",
   description:
-    "Browse all 31+ free online games on PlayOnHub. IO games, FPS, racing, puzzles, sports and more. Play instantly in your browser with no download required.",
+    "Browse all 35+ free online games on PlayOnHub. IO games, FPS, racing, puzzles, sports and more. Play instantly in your browser with no download required.",
 };
 
 export default function GamesPage() {

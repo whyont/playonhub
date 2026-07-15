@@ -1054,5 +1054,46 @@
         "answer": "Yes! You can play Piles of Mahjong on PlayOnHub from any browser. No download needed - just click and play!"
       }
     ]
+  },
+  {
+    "slug": "retro-bowl",
+    "title": "Retro Bowl",
+    "category": "sports",
+    "description": "Play Retro Bowl free online! A classic American football game with retro pixel graphics. Manage your team, call plays, and lead them to the championship. Simple controls, deep strategy, and endless fun. No download required!",
+    "embedUrl": "https://www.crazygames.com/embed/retro-bowl",
+    "thumbnail": "/thumbnails/retro-bowl.jpg",
+    "tags": ["sports", "football", "retro", "pixel", "management", "casual", "unblocked", "online", "free", "browser", "american-football"],
+    "featured": true,
+    "howToPlay": "Use the mouse or touch to aim your throw. Swipe or drag to control the direction and power. On defense, swipe to tackle the ball carrier. Manage your roster between games to build a championship team.",
+    "tips": [
+      "Focus on building a strong offensive line - it protects your quarterback and opens running lanes",
+      "Use play-action passes to catch defenses off guard",
+      "Manage your salary cap wisely - don't overspend on one position",
+      "In the draft, prioritize young players with high potential for long-term success",
+      "Practice the timing of your throws - releasing the ball at the right moment makes all the difference",
+      "On defense, read the offense and anticipate the play before committing"
+    ],
+    "faq": [
+      {
+        "question": "Is Retro Bowl free to play?",
+        "answer": "Yes, Retro Bowl is completely free to play in your web browser. No download or registration required."
+      },
+      {
+        "question": "Can I play Retro Bowl unblocked at school?",
+        "answer": "Yes! You can play Retro Bowl on PlayOnHub from any browser. No download needed - just click and play!"
+      },
+      {
+        "question": "What is Retro Bowl?",
+        "answer": "Retro Bowl is a retro-style American football management game. You control the team's plays on the field and manage the roster, drafting, and player morale between games."
+      },
+      {
+        "question": "How do I win the Retro Bowl championship?",
+        "answer": "Build a balanced team with good offense and defense. Win enough regular season games to make the playoffs, then win the playoff games to reach and win the championship."
+      },
+      {
+        "question": "Can I play Retro Bowl on mobile?",
+        "answer": "Retro Bowl works great on both desktop and mobile browsers. Swipe controls on mobile make it easy to play on any device."
+      }
+    ]
   }
 ]
