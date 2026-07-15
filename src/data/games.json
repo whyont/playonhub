@@ -138,7 +138,7 @@
     "description": "Smash Karts is a fun and chaotic multiplayer .io kart battle game. Drive your kart, collect weapons, and smash your opponents in this action-packed arena. Last kart standing wins!",
     "embedUrl": "https://www.crazygames.com/embed/smash-karts",
     "thumbnail": "/thumbnails/smash-karts.jpg",
-    "tags": ["io", "racing", "battle", "multiplayer", "3d"],
+    "tags": ["io", "racing", "battle", "multiplayer", "3d", "karts", "smash", "unblocked", "online", "free", "arena", "weapons"],
     "featured": true,
     "howToPlay": "Drive your kart with WASD or arrow keys. Collect weapon boxes to get rockets, machine guns, and more. Eliminate other players to score points.",
     "tips": [
@@ -155,6 +155,14 @@
       {
         "question": "How do I get more points in Smash Karts?",
         "answer": "Eliminate other players using weapons. Each elimination earns you points toward your match score."
+      },
+      {
+        "question": "Is Smash Karts free to play?",
+        "answer": "Yes, Smash Karts is completely free to play in your web browser on PlayOnHub. No download or registration required."
+      },
+      {
+        "question": "Can I play Smash Karts unblocked at school?",
+        "answer": "Yes! You can play Smash Karts on PlayOnHub from any browser. No download needed - just click and play!"
       }
     ]
   },
@@ -196,7 +204,7 @@
     "description": "Agar.io is the original .io game that started it all. Control a small cell, eat pellets to grow, and consume smaller players while avoiding larger ones. Simple to learn, impossible to master.",
     "embedUrl": "https://www.crazygames.com/embed/agario",
     "thumbnail": "/thumbnails/agar-io.jpg",
-    "tags": ["io", "multiplayer", "survival", "casual"],
+    "tags": ["io", "multiplayer", "survival", "casual", "agar.io", "cell", "eat", "grow", "unblocked", "online", "free", "browser"],
     "featured": true,
     "howToPlay": "Move your mouse to steer your cell. Eat smaller cells and pellets to grow. Avoid larger cells that can eat you. Split with Space to attack or escape.",
     "tips": [
@@ -209,6 +217,18 @@
       {
         "question": "How do I get big in Agar.io?",
         "answer": "Eat pellets and smaller cells to grow. Use splitting to catch prey, but be careful of larger players."
+      },
+      {
+        "question": "Is Agar.io free to play?",
+        "answer": "Yes, Agar.io is completely free to play in your web browser on PlayOnHub. No download or registration required."
+      },
+      {
+        "question": "Can I play Agar.io unblocked at school?",
+        "answer": "Yes! You can play Agar.io on PlayOnHub from any browser. No download needed - just click and play!"
+      },
+      {
+        "question": "What is the best strategy in Agar.io?",
+        "answer": "Focus on eating pellets early to grow safely. Use splitting to catch smaller players, and stay near the edges to avoid being cornered by larger cells."
       }
     ]
   },
@@ -1001,6 +1021,37 @@
       {
         "question": "What happens when I hit an obstacle?",
         "answer": "Hitting a tree, rock, or other obstacle will end your run. Your score is based on how far you traveled and how many gifts you collected."
+      }
+    ]
+  },
+  {
+    "slug": "piles-of-mahjong",
+    "title": "Piles of Mahjong",
+    "category": "puzzle",
+    "description": "Play Piles of Mahjong free online! Match identical tiles to clear the board in this relaxing puzzle game. Hundreds of levels with beautiful graphics. No download required!",
+    "embedUrl": "https://www.crazygames.com/embed/piles-of-mahjong-jhb",
+    "thumbnail": "/thumbnails/piles-of-mahjong.jpg",
+    "tags": ["mahjong", "puzzle", "matching", "tiles", "solitaire", "unblocked", "online", "free", "classic", "casual"],
+    "featured": false,
+    "howToPlay": "Click on two identical free tiles to remove them from the board. A tile is free if it has no tiles on top of it and at least one side is open. Clear all tiles to complete the level!",
+    "tips": [
+      "Focus on removing top-layer tiles first to unlock tiles underneath",
+      "Look for matching pairs among the newly exposed tiles after each move",
+      "Plan ahead - some tiles block multiple others, prioritize those",
+      "Use the shuffle or hint buttons if you get stuck"
+    ],
+    "faq": [
+      {
+        "question": "Is Piles of Mahjong free to play?",
+        "answer": "Yes, Piles of Mahjong is completely free to play in your web browser on PlayOnHub. No download or registration required."
+      },
+      {
+        "question": "How do I win in Piles of Mahjong?",
+        "answer": "Clear all tiles from the board by finding and matching identical free tiles. A tile is free when it has no tiles above it and at least one side is open."
+      },
+      {
+        "question": "Can I play Piles of Mahjong unblocked at school?",
+        "answer": "Yes! You can play Piles of Mahjong on PlayOnHub from any browser. No download needed - just click and play!"
       }
     ]
   }
